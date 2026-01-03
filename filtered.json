@@ -1,0 +1,707 @@
+[
+  {
+    "idx": 6,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.Login.GetUserContextByToken",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.Login.GetUserContextByToken"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ7MfdCoadJI2ALnsBodfOiDCOj6AvQJzYNJWKAYlAOl/SaIuehB0R68Nujrcjnfvkopw6dSg/EwObtteUHBEz/9l+ToAWjsXOg4myzBrydJ8eLHYnPpuY2x6i2A+F91UuDg4jtOw19CJdM3J5GkhE4Tom+aZHWCXtyrd8A2z2PEaWGXzf7HFiZc1GNCmZsxqyE8ljUIYtIUojtLSl1kc0JRTk9qwtUmgvX/7PxWfI8X6IOvhqdM7wlGJsy6bespTzfA9AWEdABqaoeNlcLgesTFwtKmQ2RwKPU2BNXxEH3p99k9L1FEcd27NxAdIaZg0nKOb+XF+Aw5SyzFSeMZs+uPONkLMdUnhVd9U8YTuALyNum0HeOj32j9TK1++zhrjlrYLWwYOR2skOhPlcAG5lo5I40vpPwE8dW96hw0gXfCMoQwJPsjKMO/NkoSeWHKwxYsReQkNwo70NvdwO18Bh4XJYUa16R6rwG/unewm0Cw0mwTIdJUeEZ0v5katMHohNYotBEltUxOWtAkByYMjeX882JTOuyyqO8c2AuRp5TurZhcBd1h+5UCL1aNI14TqZQBkgzBglPnNwIfzTuMkc0c68p9pWLF7y2aiADro18o6yQPctOjvRNhD+EkxXORQOGAgae5wq00kdTWNQBiFJplecKbYG1Q0Bi6RQfILdkyMIs4znqcIdSAXvhKif2/VvGmQo/l3VKJasGUlJmb77kewFr/dFQ9XQ8z47xaNthl9B6Em+gLddARF1Q4/cfLHMH1YxsJfNI83UHW3S3J2iaLHxvjwrgqElNUvtFxu0w0SgErDuQYKpu0EXiGOe+UkBEMpP2m6+58LwaRvFa/Uykqdbi2UcNSRzM3Y1bElkldc8x2f3e6qK4zA8JsQnSCrdytnfhbFHPMyOnKBGBDEn8/Fw4yUKuUvkz+OUsP2b+lrtltmlBftVj9ddQG99qxI1It2POwMlO00FYLfkvYE+PTwKl/AseSHkXiQVO2GiOu/"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":{\"Password\":\"\",\"Name\":\"杨凯\",\"ID\":163963,\"Code\":\"SY2527221\",\"RoleID\":8,\"RoleName\":\"学生\",\"LoginTime\":\"2026-01-03 13:52:39\",\"DepartmentCode\":\"012700\",\"DepartmentName\":\"化学学院\",\"IsTeachingGroupMaster\":false,\"CurrentSemester\":\"2025-2026-1\",\"IsEncrypted\":true,\"UniversityCode\":\"10006\",\"MajorName\":\"化学\",\"Authority\":[{\"RightsCode\":\"SchoolManagerResetAnswerState\",\"RightsStatus\":1},{\"RightsCode\":\"SchoolAndDepartmentRecoveryAnswer\",\"RightsStatus\":1}],\"AuthOutAddress\":\"https://sso.buaa.edu.cn/logout?service=https://yjskcpj.buaa.edu.cn\",\"deployType\":5,\"IsExpertOrSupervisor\":false,\"DegreeLevel\":0,\"SchoolDegreeLevel\":4,\"ResetPwdAndEmail\":false,\"Qualifications\":4,\"StudentRole\":0,\"MenuRoleId\":8,\"LockDateTime\":\"2000-01-01 00:00:00\",\"LoginFailCount\":0,\"NewSemesterStatistic\":\"2019-2020-2\",\"currentAuthority"
+  },
+  {
+    "idx": 9,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.EvaluationType.GetMyEvaluationTypesAll",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.EvaluationType.GetMyEvaluationTypesAll"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ7MfdCoadJI2ALnsBodfOiB3PRf3RK/9XJ084ncQkC5ZtTusTQG/+T0rW2eVkm2RwVkyFhipsHG139xJ6sEyemyYXdhb/vmv6UOOrmYNgOTXiP8zEigghhzlLAzI6jR7PG4EpISFDN4KAU+2hd4csyrw+ewnxwj+spmhcT8OT0544tPIEUyC/mL0bPmz0jiG64fPCvYgLwd82Xtnl1m50yK2PZze28jHRafq2HzpkMfvtgOwbLrI1GdxGy6T0IdBN1mXda3jC2I8A3ZkXueaAjOrU30uvAYoXGyfmrjUTe7ZF90W70ff+I64MUym2rj3OXsH0dE/doC/vHwFTJhEkOv8NN5+JbIBcF2bWeiI2cOWfdvlwwJt1vSNQFJfJ44/Clfa+67XHaqCh39zIPs7+oynfgh0TAEOd7G+LJV4CuSOaG8J+ea2tpDB1YMA5u3CyUbof4x1bNYXIN40dYqc/VFjQ1rxqiAJoXBhmtjdNVf0o8izP8gKkRLrSE+fkoY+XbG+At/4Cyq4ZM5yQsQp8tBwQc/UGyBlCHcRuqwl8cW9Y2XSgDBc2OtS39j9XxYj7hJ2xHk/g3fhHkAIk9QVSngMCpA6af77XK/QFGJ9d2DAUQCylTJKd/pLluqcXePUMqtkQDIcm1OP5zLA+vLZdNE2wXrddAtMBR7R6Y0qmBHsEg44ppv7ZMpw1HysscpNICxDMyGNzKJAccgRVE60Gko0XIxWZe2ABorfkiL7JfHjsQS8GSiaOa/VdyvXKW7leSrOMIStADDmmD/0mLwEf/wYYs1hIuGOXRGWR87sD4vkE3kZX5/ZiS1gsbcJxCBnJFB9ngoqj0HRcQvic1ddOnUiH+sMZikxOlcAcRMznGLqwqCwrC3lJeKPTdPQaEjypLH3RHdcDhzmIEJPoRdV4D/p+gu5804dMRo4ayIvQkj78ly9S+QxexGc09Y88jomFD5SZmXFKo96RkI9/xKH5wIG1N4acoasMfNb92dx2auUjOJwoFJ5xB7xv/FVSw9fLwGv4YEOgQBT4Nzq84URZ04a7EWJyD67FitzVP3Z+rCffCveVExzJtrbaY11BXImWW+/csH0H2QIAKzRHUJMkXpC14seeZBZ6BivqgHmRt2bVbYN99WmokjblQw3QMhslKqXgNrtRHe5VbB9YlKQgoUecrchP+tdYRIwEkLJkDDz+x44eNRSZ/1yYrcvuZF/AVDIuF/7Wtwdq7oD9ixWzw9ZOkpeagWf/0ckywqAu/aEqFN9fJDh8FtZM3azbvUMAhHbxeuXY84XbvZOU7PP/ePFbe+rfcap0zODG8KeG6fEIawt3WYfAcs8zOtiFSpZczFBZmoWQglyZDA8feSkAnhnYWczW7wotIz1PSGIGeuntMsfKRT5OoowXTfFyTYQZzOcyk3fki8AFjNqxfl+sdzyQxHB2KYAaFTGDT5mvBnfbp3OYTF//I1khtnf4hJfwtDpVydS23IgNOVQIXbH6UhaxbGW9vzoyjhMBlgNgJhRTICUZnl6HTX4tjDRBKxJ8A=="
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":[{\"Id\":1,\"Name\":\"期末评价\",\"Code\":\"Final\",\"CreateTime\":\"2023-11-09 20:12:01\",\"UpdateTime\":\"2023-11-09 20:12:01\",\"OwnerCode\":\"system\",\"Count\":0,\"Sort\":7},{\"Id\":2,\"Name\":\"随堂评价\",\"Code\":\"Student\",\"CreateTime\":\"2023-11-09 20:12:01\",\"UpdateTime\":\"2023-11-09 20:12:01\",\"OwnerCode\":\"system\",\"Count\":0,\"Sort\":12},{\"Id\":3,\"Name\":\"同行评价\",\"Code\":\"CoWorker\",\"CreateTime\":\"2023-11-09 20:12:01\",\"UpdateTime\":\"2023-11-09 20:12:01\",\"OwnerCode\":\"system\",\"Count\":0,\"Sort\":4},{\"Id\":4,\"Name\":\"领导评价\",\"Code\":\"Expert\",\"CreateTime\":\"2023-11-09 20:12:01\",\"UpdateTime\":\"2023-11-09 20:12:01\",\"OwnerCode\":\"system\",\"Count\":0,\"Sort\":5},{\"Id\":5,\"Name\":\"期中评价\",\"Code\":\"Middle\",\"CreateTime\":\"2018-05-22 17:41:36\",\"UpdateTime\":\"2018-05-22 17:41:36\",\"OwnerCode\":\"system\",\"Count\":0,\"Sort\":9},{\"Id\":6,\"Name\":\"督导评价\",\"Code\":\"Supervisor\","
+  },
+  {
+    "idx": 11,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.Login.CheckLoginState",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.Login.CheckLoginState"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ7MfdCoadJI2ALnsBodfOiB3PRf3RK/9XJ084ncQkC5ZtTusTQG/+T0rW2eVkm2RwVkyFhipsHG139xJ6sEyemyYXdhb/vmv6UOOrmYNgOTXiP8zEigghhzlLAzI6jR7PG4EpISFDN4KAU+2hd4csyrw+ewnxwj+spmhcT8OT0544tPIEUyC/mL0bPmz0jiG64fPCvYgLwd82Xtnl1m50yK2PZze28jHRafq2HzpkMfvtgOwbLrI1GdxGy6T0IdBN1mXda3jC2I8A3ZkXueaAjOrU30uvAYoXGyfmrjUTe7ZF90W70ff+I64MUym2rj3OXsH0dE/doC/vHwFTJhEkOv8NN5+JbIBcF2bWeiI2cOWfdvlwwJt1vSNQFJfJ44/Clfa+67XHaqCh39zIPs7+oynfgh0TAEOd7G+LJV4CuSOaG8J+ea2tpDB1YMA5u3CyUbof4x1bNYXIN40dYqc/VFjQ1rxqiAJoXBhmtjdNVf0o8izP8gKkRLrSE+fkoY+XbG+At/4Cyq4ZM5yQsQp8tBwQc/UGyBlCHcRuqwl8cW9Y2XSgDBc2OtS39j9XxYj7hJ2xHk/g3fhHkAIk9QVSngMCpA6af77XK/QFGJ9d2DAUQCylTJKd/pLluqcXePUMqtkQDIcm1OP5zLA+vLZdNE2wXrddAtMBR7R6Y0qmBHsEg44ppv7ZMpw1HysscpNICxDMyGNzKJAccgRVE60Gko0XIxWZe2ABorfkiL7JfHjsQS8GSiaOa/VdyvXKW7leSrOMIStADDmmD/0mLwEf/wYYs1hIuGOXRGWR87sD4vkE3kZX5/ZiS1gsbcJxCBnJFB9ngoqj0HRcQvic1ddOnWLJYl4rUW3Dth0VyD0X6BQJRC/ibuD6CD/vJ2OkbIXxBGZPjzTRaOfvBrNVk2xWf/Zq3gA7D3r5s6yUvIiqeoS6RF96azn0xP4pNDUQLcGJm+5nhheXdL/4ExDeSW5Mrww7vv+F5plDMTYalImFiP/WJT2NCPeLnrzckK+AlyCG+UhsCQn5YVW1ggbZj/TYafh4g0+/vxWey7fbKxp9LoZpQ4/gCPsk2NVZtHAkkR9iImxXmeRWryYrkkp2WUQEkHgC+8A/u+5yQ3jKhiMlQ67uHAGZ6fNeARYbEWkliebxU3DMa5bd1gCpFMsFDijZMM="
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":true,\"Token\":\"RaIMd7mGRO8vbueJ1z0RIN9elj49Gbznjzxlr7AGrzEGhY7ZaoR2ZVqhwJgYTer3L3snsn15eKbJc18abubqe6fXVxD0UJYQplfe6Pj15xBeq5NzVCvpWfxHalc85ahWXTEuxfWqJyuCCg+e3pZV4zx0m5lTKRNKiDdpxyIjfCrqeMge9d3aCANvTxmDe1RM63Bvxk60kmMYEyUJwnoPtShUiuq14OD09/qyrPsDoHjYPjwn1d1DEIqUGzUMCFuV/e8VtRZ7YtoznZU8MhliRXp3jFh7m78/maBpYcs7X2pGUgnn6UocMQ4mBsAJRzxlVks4EEiwxfR2G3hJK/5TRLOvYHvXhmE1sRbyFCUqxXD8K/I9YuWKY4uT68TO19azXhFcVNiI88W3WAe6uyuRNRYKPZ1rzez2onxrVuqWu2gvj7SP0Wh+ni6R4kfjEmA+eo88GHeR22tKvtZlRlW3nqqeg7CSYnQVtThAZM1qO5jkGNoTdNZ44aHVCkkWRxb9ljv7NFLkhSNmw9VfSZRoccqVjNNR9/jsA4J6h1g4vrw=\",\"RequestId\":\"46216b64-cb34-40bc-a13d-532c37d4e5dd\"}"
+  },
+  {
+    "idx": 13,
+    "url": "https://yjskcpj.buaa.edu.cn/mita/online/message/course/unRead",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1",
+      "x-requested-with": "XMLHttpRequest"
+    },
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "WdcAv8uEjtQ7jOJ25kgcyx6HYxccb3u4muIZi2XA9QBiVdoaF9MMxPfLvMo77ejMI2voemQAOJWTdEEnstk6013pbjxZuwq2HfgnzPVp58n89os/wYh3x98zJbnoOTBowxLERfFjxpr8MgziRtvTd7vR8DZ5JfvM+o9CQGxOOozSam2Z6daDLpWxV1e2vblRp0zEY53bWJFOxUps7uQ3mpJygG7fMo6fvv0/dEtDHcIMSFM6RvnmBeJPgS2XzzgjmuiwMZ2TEhDZqYqSF2S2NjP/1mWfgnvLjyU7+JXLBs0ifPJwP8s9ZTIHGDOcpEGO9YFhYufxETdbyDJeyJWHrYz2ZEAbRCmo//6nzFfjt6dXxyEGzhSzA/fHQDh3OUYpVedX5UU/AgWO/p+47wK8ZCOc+ljz9AlHFALSznM9+bcj4CoPxeHsoXPEc7NzbVxxNv9y25Yai1s5KLS4McVhscZUCR7d3rLlXuBGkg7jpWC+I8vuY2Nq/v/s7+u6QJ3dsT3njMET2IgRR8awKovluNnq/pgVJKyoFquUbB9wtfSO0Eq8UiYyGw0Tni7dITka2AAggK1aE5Uhdq684In38ilasXcJP7r9dPGoz2ZStCt67wLSWN+CronvxKsYtUZi7BLmC8w1rBM99F/c9uQ7KXVuFnnR3VJ/uZKb8oqLD737QSbYKPscdVwkpeoJz5PysyRk951pzIirRyrNw/Zg5qlonB/RgBZq9hSbQfF1VIQKFt/NDdrcg0BMzuegqZzUqf9pUTalzgAnUc3Ia2bWLQBsKXr60q+LbRJLb/FwIob+SRHEwxmJoWUQdbmLdTZM8n4Pm1B4FqbAgs36+3fyBsTCeKOIkLxcocBuy05FuC2xF+i7+WGJoyjBeGbjQ6oVNNtgKxTwcoPzBDCR1ISfeNXHac7NP/XO3iRd88XvvcT1s1YAESbzEFpPUDtjUa87BtTeGnKGrDHzW/dncdmrlIzicKBSecQe8b/xVUsPXy8Br+GBDoEAU+Dc6vOFEWdOGuxFicg+uxYrc1T92fqwn3wr3lRMcyba22mNdQVyJllvv3LB9B9kCACs0R1CTJF6QteLHnmQWegYr6oB5kbdm6Ev2d/rJuTNN+yReJ+cgtFMgJRmeXodNfi2MNEErEnw"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"success\":true,\"msg\":\"操作成功\",\"result\":{\"studentUnReadCount\":null,\"studentUnReadFlag\":null,\"studentForFacultyUnReadCount\":null,\"studentForFacultyUnReadFlag\":null,\"teacherUnReadCount\":null,\"teacherUnReadFlag\":0,\"adminUnReadCount\":0,\"adminUnReadFlag\":0,\"schoolManagerUnReadCount\":0,\"schoolManagerUnReadFlag\":0,\"departmentManagerUnReadCount\":0,\"currentUserUnreadTotal\":0,\"departmentManagerUnReadFlag\":0},\"code\":200,\"attributes\":{},\"requestId\":\"8046f6ff-9445-40a9-94fe-5e65cdbbb372\"}"
+  },
+  {
+    "idx": 14,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.MyTask.MyTask.GetMyUnfinishTaskNumber",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.MyTask.MyTask.GetMyUnfinishTaskNumber"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ7MfdCoadJI2ALnsBodfOiB3PRf3RK/9XJ084ncQkC5ZtTusTQG/+T0rW2eVkm2RwVkyFhipsHG139xJ6sEyemyYXdhb/vmv6UOOrmYNgOTXiP8zEigghhzlLAzI6jR7PG4EpISFDN4KAU+2hd4csyrw+ewnxwj+spmhcT8OT0544tPIEUyC/mL0bPmz0jiG64fPCvYgLwd82Xtnl1m50yK2PZze28jHRafq2HzpkMfvtgOwbLrI1GdxGy6T0IdBN1mXda3jC2I8A3ZkXueaAjOrU30uvAYoXGyfmrjUTe7ZF90W70ff+I64MUym2rj3OXsH0dE/doC/vHwFTJhEkOv8NN5+JbIBcF2bWeiI2cOWfdvlwwJt1vSNQFJfJ44/Clfa+67XHaqCh39zIPs7+oynfgh0TAEOd7G+LJV4CuSOaG8J+ea2tpDB1YMA5u3CyUbof4x1bNYXIN40dYqc/VFjQ1rxqiAJoXBhmtjdNVf0o8izP8gKkRLrSE+fkoY+XbG+At/4Cyq4ZM5yQsQp8tBwQc/UGyBlCHcRuqwl8cW9Y2XSgDBc2OtS39j9XxYj7hJ2xHk/g3fhHkAIk9QVSngMCpA6af77XK/QFGJ9d2DAUQCylTJKd/pLluqcXePUMqtkQDIcm1OP5zLA+vLZdNE2wXrddAtMBR7R6Y0qmBHsEg44ppv7ZMpw1HysscpNICxDMyGNzKJAccgRVE60Gko0XIxWZe2ABorfkiL7JfHjsQS8GSiaOa/VdyvXKW7leSrOMIStADDmmD/0mLwEf/wYYs1hIuGOXRGWR87sD4vkE3kZX5/ZiS1gsbcJxCBnJFB9ngoqj0HRcQvic1ddOnVNBx4wGzWk9PWliQHxJG7GuRpyMofmz6aXPNpp8E5brlypRK9bYgko7C11RaU/+pTTONZqooYbRXJwHF0OBNZD2at4AOw96+bOslLyIqnqEukRfems59MT+KTQ1EC3BiZvuZ4YXl3S/+BMQ3kluTK8MO77/heaZQzE2GpSJhYj/1iU9jQj3i5683JCvgJcghvlIbAkJ+WFVtYIG2Y/02Gn4eINPv78Vnsu32ysafS6GaUOP4Aj7JNjVWbRwJJEfYiJsV5nkVq8mK5JKdllEBJB4AvvAP7vuckN4yoYjJUOu7hwBmenzXgEWGxFpJYnm8VNwzGuW3dYAqRTLBQ4o2TD"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":1,\"Token\":\"RaIMd7mGRO8vbueJ1z0RIN9elj49Gbznjzxlr7AGrzEGhY7ZaoR2ZVqhwJgYTer3L3snsn15eKbJc18abubqe6fXVxD0UJYQplfe6Pj15xBeq5NzVCvpWfxHalc85ahWXTEuxfWqJyuCCg+e3pZV4zx0m5lTKRNKiDdpxyIjfCrqeMge9d3aCANvTxmDe1RM63Bvxk60kmMYEyUJwnoPtShUiuq14OD09/qyrPsDoHjYPjwn1d1DEIqUGzUMCFuV/e8VtRZ7YtoznZU8MhliRXp3jFh7m78/maBpYcs7X2pGUgnn6UocMQ4mBsAJRzxlVks4EEiwxfR2G3hJK/5TRLOvYHvXhmE1sRbyFCUqxXD8K/I9YuWKY4uT68TO19azXhFcVNiI88W3WAe6uyuRNRYKPZ1rzez2onxrVuqWu2gvj7SP0Wh+ni6R4kfjEmA+eo88GHeR22tKvtZlRlW3nqqeg7CSYnQVtThAZM1qO5jkGNoTdNZ44aHVCkkWRxb9ljv7NFLkhSNmw9VfSZRoccqVjNNR9/jsA4J6h1g4vrw=\",\"RequestId\":\"95ae492f-2c3b-4379-afbf-0aa835ee1175\"}"
+  },
+  {
+    "idx": 15,
+    "url": "https://yjskcpj.buaa.edu.cn/questionnaire/TeacherEvalPublishItemDetail/GetEvalToMeQuestionnaireId",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ7MfdCoadJI2ALnsBodfOiB3PRf3RK/9XJ084ncQkC5ZtTusTQG/+T0rW2eVkm2RwVkyFhipsHG139xJ6sEyemyYXdhb/vmv6UOOrmYNgOTXiP8zEigghhzlLAzI6jR7PG4EpISFDN4KAU+2hd4csyrw+ewnxwj+spmhcT8OT0544tPIEUyC/mL0bPmz0jiG64fPCvYgLwd82Xtnl1m50yK2PZze28jHRafq2HzpkMfvtgOwbLrI1GdxGy6T0IdBN1mXda3jC2I8A3ZkXueaAjOrU30uvAYoXGyfmrjUTe7ZF90W70ff+I64MUym2rj3OXsH0dE/doC/vHwFTJhEkOv8NN5+JbIBcF2bWeiI2cOWfdvlwwJt1vSNQFJfJ44/Clfa+67XHaqCh39zIPs7+oynfgh0TAEOd7G+LJV4CuSOaG8J+ea2tpDB1YMA5u3CyUbof4x1bNYXIN40dYqc/VFjQ1rxqiAJoXBhmtjdNVf0o8izP8gKkRLrSE+fkoY+XbG+At/4Cyq4ZM5yQsQp8tBwQc/UGyBlCHcRuqwl8cW9Y2XSgDBc2OtS39j9XxYj7hJ2xHk/g3fhHkAIk9QVSngMCpA6af77XK/QFGJ9d2DAUQCylTJKd/pLluqcXePUMqtkQDIcm1OP5zLA+vLZdNE2wXrddAtMBR7R6Y0qmBHsEg44ppv7ZMpw1HysscpNICxDMyGNzKJAccgRVE60Gko0XIxWZe2ABorfkiL7JfHjsQS8GSiaOa/VdyvXKW7leSrOMIStADDmmD/0mLwEf/wYYs1hIuGOXRGWR87sD4vkE3kZX5/ZiS1gsbcJxCBnJFB9ngoqj0HRcQvic1ddOnXeov0qkPxC7jwAm2qUgjJei9ffIbtxhHCvXxc0BT2gJqDR9k86ERE12G1OYAlYjOhYk3b9JUrpABQ7t9G1tG/XwY7I3t+2NaM710e7R8rGQmZ7b33orMubghaVdzuS61Sy9G1AShcRJvuYNxMDSTG3W0DK6kGhaiJg4z8bzkATBMxIJmydZnTbyr/Zh6ql44nGT0J6p1PUsSJ3Qs/ZYDxx9YUTnSw/vBY86PnQfdrnzj1sYAEWew0NGtYasf9Nh3RfncqmWuZ3ygtSOnTPqcEz5WXaiE0v3eZPRROuVG2wreIwvuq8cEvfrX962opnz8gE/URGEJjfwKoqpz6IeYVkg2Ejm1fULe4//5eChcTbhH2q8cohD4ATm6nDXkE6Pts="
+    },
+    "responseHeaders": {
+      "content-type": "application/json; charset=utf-8"
+    },
+    "responseSnippet": "{\"Status\":200,\"Success\":true,\"Message\":\"OK\",\"Value\":[{\"Semester\":\"2025-2026-1\",\"QuestionnaireIds\":[]},{\"Semester\":\"2024-2025-2\",\"QuestionnaireIds\":[]}],\"Token\":\"RaIMd7mGRO8vbueJ1z0RIN9elj49Gbznjzxlr7AGrzEGhY7ZaoR2ZVqhwJgYTer3L3snsn15eKbJc18abubqe6fXVxD0UJYQplfe6Pj15xBeq5NzVCvpWfxHalc85ahWXTEuxfWqJyuCCg+e3pZV4zx0m5lTKRNKiDdpxyIjfCrqeMge9d3aCANvTxmDe1RM63Bvxk60kmMYEyUJwnoPtShUiuq14OD09/qyrPsDoHjYPjwn1d1DEIqUGzUMCFuV/e8VtRZ7YtoznZU8MhliRXp3jFh7m78/maBpYcs7X2pGUgnn6UocMQ4mBsAJRzxlVks4EEiwxfR2G3hJK/5TRLOvYHvXhmE1sRbyFCUqxXD8K/I9YuWKY4uT68TO19azXhFcVNiI88W3WAe6uyuRNRYKPZ1rzez2onxrVuqWu2gvj7SP0Wh+ni6R4kfjEmA+eo88GHeR22tKvtZlRlW3nqqeg7CSYnQVtThAZM1qO5jkGNoTdNZ44aHVCkkWRxb9ljv7NFLkhSNmw9VfSZRoccqVjNNR9/jsA4J6h1g4vrw=\",\"RequestId\":\"dd9f32b6-6f71-4c14-a7b9-e8de5287548d\",\"IsDownload\":false}"
+  },
+  {
+    "idx": 16,
+    "url": "https://yjskcpj.buaa.edu.cn/mita/online/message/course/unRead",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1",
+      "x-requested-with": "XMLHttpRequest"
+    },
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "WdcAv8uEjtQ7jOJ25kgcyx6HYxccb3u4muIZi2XA9QBiVdoaF9MMxPfLvMo77ejMI2voemQAOJWTdEEnstk6013pbjxZuwq2HfgnzPVp58n89os/wYh3x98zJbnoOTBowxLERfFjxpr8MgziRtvTd7vR8DZ5JfvM+o9CQGxOOozSam2Z6daDLpWxV1e2vblRp0zEY53bWJFOxUps7uQ3mpJygG7fMo6fvv0/dEtDHcIMSFM6RvnmBeJPgS2XzzgjmuiwMZ2TEhDZqYqSF2S2NjP/1mWfgnvLjyU7+JXLBs0ifPJwP8s9ZTIHGDOcpEGO9YFhYufxETdbyDJeyJWHrYz2ZEAbRCmo//6nzFfjt6dXxyEGzhSzA/fHQDh3OUYpVedX5UU/AgWO/p+47wK8ZCOc+ljz9AlHFALSznM9+bcj4CoPxeHsoXPEc7NzbVxxNv9y25Yai1s5KLS4McVhscZUCR7d3rLlXuBGkg7jpWC+I8vuY2Nq/v/s7+u6QJ3dsT3njMET2IgRR8awKovluNnq/pgVJKyoFquUbB9wtfSO0Eq8UiYyGw0Tni7dITka2AAggK1aE5Uhdq684In38ilasXcJP7r9dPGoz2ZStCt67wLSWN+CronvxKsYtUZi7BLmC8w1rBM99F/c9uQ7KXVuFnnR3VJ/uZKb8oqLD737QSbYKPscdVwkpeoJz5PysyRk951pzIirRyrNw/Zg5qlonB/RgBZq9hSbQfF1VIQKFt/NDdrcg0BMzuegqZzUqf9pUTalzgAnUc3Ia2bWLQBsKXr60q+LbRJLb/FwIob+SRHEwxmJoWUQdbmLdTZM8n4Pm1B4FqbAgs36+3fyBsTCeKOIkLxcocBuy05FuC2xF+i7+WGJoyjBeGbjQ6oVNNtgKxTwcoPzBDCR1ISfeNXHac7NP/XO3iRd88XvvcT1s1YAESbzEFpPUDtjUa87BtTeGnKGrDHzW/dncdmrlIzicKBSecQe8b/xVUsPXy8Br+GBDoEAU+Dc6vOFEWdOGuxFicg+uxYrc1T92fqwn3wr3lRMcyba22mNdQVyJllvv3LB9B9kCACs0R1CTJF6QteLHnmQWegYr6oB5kbdm3zFVbEYi7lpX6d+nD+f7+NNwzGuW3dYAqRTLBQ4o2TD"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"success\":true,\"msg\":\"操作成功\",\"result\":{\"studentUnReadCount\":null,\"studentUnReadFlag\":null,\"studentForFacultyUnReadCount\":null,\"studentForFacultyUnReadFlag\":null,\"teacherUnReadCount\":null,\"teacherUnReadFlag\":0,\"adminUnReadCount\":0,\"adminUnReadFlag\":0,\"schoolManagerUnReadCount\":0,\"schoolManagerUnReadFlag\":0,\"departmentManagerUnReadCount\":0,\"currentUserUnreadTotal\":0,\"departmentManagerUnReadFlag\":0},\"code\":200,\"attributes\":{},\"requestId\":\"9211d99c-db85-48ef-9de6-ecef05bf0837\"}"
+  },
+  {
+    "idx": 17,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.MyTask.MyTask.GetMyUnfinishTaskNumber",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.MyTask.MyTask.GetMyUnfinishTaskNumber"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ7MfdCoadJI2ALnsBodfOiB3PRf3RK/9XJ084ncQkC5ZtTusTQG/+T0rW2eVkm2RwVkyFhipsHG139xJ6sEyemyYXdhb/vmv6UOOrmYNgOTXiP8zEigghhzlLAzI6jR7PG4EpISFDN4KAU+2hd4csyrw+ewnxwj+spmhcT8OT0544tPIEUyC/mL0bPmz0jiG64fPCvYgLwd82Xtnl1m50yK2PZze28jHRafq2HzpkMfvtgOwbLrI1GdxGy6T0IdBN1mXda3jC2I8A3ZkXueaAjOrU30uvAYoXGyfmrjUTe7ZF90W70ff+I64MUym2rj3OXsH0dE/doC/vHwFTJhEkOv8NN5+JbIBcF2bWeiI2cOWfdvlwwJt1vSNQFJfJ44/Clfa+67XHaqCh39zIPs7+oynfgh0TAEOd7G+LJV4CuSOaG8J+ea2tpDB1YMA5u3CyUbof4x1bNYXIN40dYqc/VFjQ1rxqiAJoXBhmtjdNVf0o8izP8gKkRLrSE+fkoY+XbG+At/4Cyq4ZM5yQsQp8tBwQc/UGyBlCHcRuqwl8cW9Y2XSgDBc2OtS39j9XxYj7hJ2xHk/g3fhHkAIk9QVSngMCpA6af77XK/QFGJ9d2DAUQCylTJKd/pLluqcXePUMqtkQDIcm1OP5zLA+vLZdNE2wXrddAtMBR7R6Y0qmBHsEg44ppv7ZMpw1HysscpNICxDMyGNzKJAccgRVE60Gko0XIxWZe2ABorfkiL7JfHjsQS8GSiaOa/VdyvXKW7leSrOMIStADDmmD/0mLwEf/wYYs1hIuGOXRGWR87sD4vkE3kZX5/ZiS1gsbcJxCBnJFB9ngoqj0HRcQvic1ddOnVNBx4wGzWk9PWliQHxJG7GuRpyMofmz6aXPNpp8E5brlypRK9bYgko7C11RaU/+pTTONZqooYbRXJwHF0OBNZD2at4AOw96+bOslLyIqnqEukRfems59MT+KTQ1EC3BiZvuZ4YXl3S/+BMQ3kluTK8MO77/heaZQzE2GpSJhYj/1iU9jQj3i5683JCvgJcghvlIbAkJ+WFVtYIG2Y/02Gn4eINPv78Vnsu32ysafS6GaUOP4Aj7JNjVWbRwJJEfYiJsV5nkVq8mK5JKdllEBJBrINBsNhbjuk42mfmAIYjHMKcV0x4Uuk7sx8Oa8IFnEy5EYpG2Za9IeSJSxdpXlNd"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":1,\"Token\":\"RaIMd7mGRO8vbueJ1z0RIN9elj49Gbznjzxlr7AGrzEGhY7ZaoR2ZVqhwJgYTer3L3snsn15eKbJc18abubqe6fXVxD0UJYQplfe6Pj15xBeq5NzVCvpWfxHalc85ahWXTEuxfWqJyuCCg+e3pZV4zx0m5lTKRNKiDdpxyIjfCrqeMge9d3aCANvTxmDe1RM63Bvxk60kmMYEyUJwnoPtShUiuq14OD09/qyrPsDoHjYPjwn1d1DEIqUGzUMCFuV/e8VtRZ7YtoznZU8MhliRXp3jFh7m78/maBpYcs7X2pGUgnn6UocMQ4mBsAJRzxlVks4EEiwxfR2G3hJK/5TRLOvYHvXhmE1sRbyFCUqxXD8K/I9YuWKY4uT68TO19azXhFcVNiI88W3WAe6uyuRNRYKPZ1rzez2onxrVuqWu2gvj7SP0Wh+ni6R4kfjEmA+eo88GHeR22tKvtZlRlW3nqqeg7CSYnQVtThAZM1qO5jkGNoTdNZ44aHVCkkWRxb9ljv7NFLkhSNmw9VfSZRoccqVjNNR9/jsA4J6h1g4vrw=\",\"RequestId\":\"f034fe65-dd14-40bb-99a5-f26c932c6fbd\"}"
+  },
+  {
+    "idx": 18,
+    "url": "https://yjskcpj.buaa.edu.cn/questionnaire/TeacherEvalPublishItemDetail/GetEvalToMeQuestionnaireId",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ7MfdCoadJI2ALnsBodfOiB3PRf3RK/9XJ084ncQkC5ZtTusTQG/+T0rW2eVkm2RwVkyFhipsHG139xJ6sEyemyYXdhb/vmv6UOOrmYNgOTXiP8zEigghhzlLAzI6jR7PG4EpISFDN4KAU+2hd4csyrw+ewnxwj+spmhcT8OT0544tPIEUyC/mL0bPmz0jiG64fPCvYgLwd82Xtnl1m50yK2PZze28jHRafq2HzpkMfvtgOwbLrI1GdxGy6T0IdBN1mXda3jC2I8A3ZkXueaAjOrU30uvAYoXGyfmrjUTe7ZF90W70ff+I64MUym2rj3OXsH0dE/doC/vHwFTJhEkOv8NN5+JbIBcF2bWeiI2cOWfdvlwwJt1vSNQFJfJ44/Clfa+67XHaqCh39zIPs7+oynfgh0TAEOd7G+LJV4CuSOaG8J+ea2tpDB1YMA5u3CyUbof4x1bNYXIN40dYqc/VFjQ1rxqiAJoXBhmtjdNVf0o8izP8gKkRLrSE+fkoY+XbG+At/4Cyq4ZM5yQsQp8tBwQc/UGyBlCHcRuqwl8cW9Y2XSgDBc2OtS39j9XxYj7hJ2xHk/g3fhHkAIk9QVSngMCpA6af77XK/QFGJ9d2DAUQCylTJKd/pLluqcXePUMqtkQDIcm1OP5zLA+vLZdNE2wXrddAtMBR7R6Y0qmBHsEg44ppv7ZMpw1HysscpNICxDMyGNzKJAccgRVE60Gko0XIxWZe2ABorfkiL7JfHjsQS8GSiaOa/VdyvXKW7leSrOMIStADDmmD/0mLwEf/wYYs1hIuGOXRGWR87sD4vkE3kZX5/ZiS1gsbcJxCBnJFB9ngoqj0HRcQvic1ddOnXeov0qkPxC7jwAm2qUgjJei9ffIbtxhHCvXxc0BT2gJqDR9k86ERE12G1OYAlYjOhYk3b9JUrpABQ7t9G1tG/XwY7I3t+2NaM710e7R8rGQmZ7b33orMubghaVdzuS61Sy9G1AShcRJvuYNxMDSTG3W0DK6kGhaiJg4z8bzkATBMxIJmydZnTbyr/Zh6ql44nGT0J6p1PUsSJ3Qs/ZYDxx9YUTnSw/vBY86PnQfdrnzj1sYAEWew0NGtYasf9Nh3RfncqmWuZ3ygtSOnTPqcEz5WXaiE0v3eZPRROuVG2wreIwvuq8cEvfrX962opnz8i53u8PaacScjTHtWXcvgyXYCBp7nCrTSR1NY1AGIUmmftcutbsugAa5LSLw32Ngcg="
+    },
+    "responseHeaders": {
+      "content-type": "application/json; charset=utf-8"
+    },
+    "responseSnippet": "{\"Status\":200,\"Success\":true,\"Message\":\"OK\",\"Value\":[{\"Semester\":\"2025-2026-1\",\"QuestionnaireIds\":[]},{\"Semester\":\"2024-2025-2\",\"QuestionnaireIds\":[]}],\"Token\":\"RaIMd7mGRO8vbueJ1z0RIN9elj49Gbznjzxlr7AGrzEGhY7ZaoR2ZVqhwJgYTer3L3snsn15eKbJc18abubqe6fXVxD0UJYQplfe6Pj15xBeq5NzVCvpWfxHalc85ahWXTEuxfWqJyuCCg+e3pZV4zx0m5lTKRNKiDdpxyIjfCrqeMge9d3aCANvTxmDe1RM63Bvxk60kmMYEyUJwnoPtShUiuq14OD09/qyrPsDoHjYPjwn1d1DEIqUGzUMCFuV/e8VtRZ7YtoznZU8MhliRXp3jFh7m78/maBpYcs7X2pGUgnn6UocMQ4mBsAJRzxlVks4EEiwxfR2G3hJK/5TRLOvYHvXhmE1sRbyFCUqxXD8K/I9YuWKY4uT68TO19azXhFcVNiI88W3WAe6uyuRNRYKPZ1rzez2onxrVuqWu2gvj7SP0Wh+ni6R4kfjEmA+eo88GHeR22tKvtZlRlW3nqqeg7CSYnQVtThAZM1qO5jkGNoTdNZ44aHVCkkWRxb9ljv7NFLkhSNmw9VfSZRoccqVjNNR9/jsA4J6h1g4vrw=\",\"RequestId\":\"1039ff49-2076-4333-8b7b-87703fc49136\",\"IsDownload\":false}"
+  },
+  {
+    "idx": 20,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.MyTask.MyTask.GetMyTaskItemByAnswerStatus",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.MyTask.MyTask.GetMyTaskItemByAnswerStatus"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ7MfdCoadJI2ALnsBodfOiB3PRf3RK/9XJ084ncQkC5ZtTusTQG/+T0rW2eVkm2RwVkyFhipsHG139xJ6sEyemyYXdhb/vmv6UOOrmYNgOTXiP8zEigghhzlLAzI6jR7PG4EpISFDN4KAU+2hd4csyrw+ewnxwj+spmhcT8OT0544tPIEUyC/mL0bPmz0jiG64fPCvYgLwd82Xtnl1m50yK2PZze28jHRafq2HzpkMfvtgOwbLrI1GdxGy6T0IdBN1mXda3jC2I8A3ZkXueaAjOrU30uvAYoXGyfmrjUTe7ZF90W70ff+I64MUym2rj3OXsH0dE/doC/vHwFTJhEkOv8NN5+JbIBcF2bWeiI2cOWfdvlwwJt1vSNQFJfJ44/Clfa+67XHaqCh39zIPs7+oynfgh0TAEOd7G+LJV4CuSOaG8J+ea2tpDB1YMA5u3CyUbof4x1bNYXIN40dYqc/VFjQ1rxqiAJoXBhmtjdNVf0o8izP8gKkRLrSE+fkoY+XbG+At/4Cyq4ZM5yQsQp8tBwQc/UGyBlCHcRuqwl8cW9Y2XSgDBc2OtS39j9XxYj7hJ2xHk/g3fhHkAIk9QVSngMCpA6af77XK/QFGJ9d2DAUQCylTJKd/pLluqcXePUMqtkQDIcm1OP5zLA+vLZdNE2wXrddAtMBR7R6Y0qmBHsEg44ppv7ZMpw1HysscpNICxDMyGNzKJAccgRVE60Gko0XIxWZe2ABorfkiL7JfHjsQS8GSiaOa/VdyvXKW7leSrOMIStADDmmD/0mLwEf/wYYs1hIuGOXRGWR87sD4vkE3kZX5/ZiS1gsbcJxCBnJFB9ngoqj0HRcQvic1ddOnVNBx4wGzWk9PWliQHxJG7GdZfl2yO+1X2mz2HAJox3haJueWdfwIRnJFdaFGTraVa3DVl0fWy4DL3WYJE0iYEdaqYi3XBpYW6Jnt6gvtB8d0WEZzstPdcBw+Z9temKsGRZOe5lISanX7gPNoS5pOXyc91YgiSPMBwlBT2zMS4oDnd/PPxVIHw/LV1xjxgAGI6voZX7xqATJ7ryaphQhQKeg4+UmWz8/9HT/QdDxnu18PJcvUvkMXsRnNPWPPI6JhTnkVJ5qLyGmv8aWCUjhBbBBtTeGnKGrDHzW/dncdmrlIzicKBSecQe8b/xVUsPXy+dAoGqLhaPlLJhzdZ9DVgjPQvpmjMRsOB/cByv5/kgKi2PR8GgDyOezuYb27hMR4R0lnAmbJa4xL0qlpnVD6I5DFDPWPR0vFOJzqNs+o04WLuBJnzX1zaMAyYvLK8oWrEAoVID3+p9h5U/1+qIKKJ13mzt+Y9/FJw7K09lxGmo3zBhGlSJKPUKUxHNbA+Eo2j263NEZlSzoeZb/JQB9ZEsokk6UxhwSDJn3LaExEx9qeuQF3THWwW7yuQ8Ni1Xhcxbo25GxzZIH0/iArsElSjI2ONkaOYn2Ubtm99bLA97zmHG4PBQdLfVBeTr+Uw3zBA="
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":{\"TotalCount\":1,\"Items\":[{\"TaskId\":\"5\",\"AnsweredCount\":0,\"TotalAnswerCount\":27,\"QuestionnaireName\":\"2025-2026-1学期期末学生评价（校级）\",\"QuestionnaireId\":\"10\",\"EvaType\":1,\"EvaTypeName\":\"期末评价\",\"OwnerCode\":\"admin\",\"OwnerName\":\"研究生院管理员\",\"StartTime\":\"2026-01-01 00:00:00\",\"EndTime\":\"2026-03-31 23:59:59\",\"Status\":0,\"EvaCode\":\"Final\",\"IsAnonymous\":0,\"IsShare\":\"0\",\"Semester\":\"2025-2026-1\",\"TaskStatus\":1,\"IsEvalToCourse\":0,\"IsMultipleAnswers\":0,\"IsEvalExportDisabled\":false,\"PublishItemId\":0}],\"PageIndex\":1,\"IsOutRange\":false,\"HasMaster\":false},\"Token\":\"RaIMd7mGRO8vbueJ1z0RIN9elj49Gbznjzxlr7AGrzEGhY7ZaoR2ZVqhwJgYTer3L3snsn15eKbJc18abubqe6fXVxD0UJYQplfe6Pj15xBeq5NzVCvpWfxHalc85ahWXTEuxfWqJyuCCg+e3pZV4zx0m5lTKRNKiDdpxyIjfCrqeMge9d3aCANvTxmDe1RM63Bvxk60kmMYEyUJwnoPtShUiuq14OD09/qyrPsDoHjYPjwn1d1DEIqUGzUM"
+  },
+  {
+    "idx": 21,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.MyTask.MyTask.GetMyTaskCountByAnswerStatus",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.MyTask.MyTask.GetMyTaskCountByAnswerStatus"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ7MfdCoadJI2ALnsBodfOiB3PRf3RK/9XJ084ncQkC5ZtTusTQG/+T0rW2eVkm2RwVkyFhipsHG139xJ6sEyemyYXdhb/vmv6UOOrmYNgOTXiP8zEigghhzlLAzI6jR7PG4EpISFDN4KAU+2hd4csyrw+ewnxwj+spmhcT8OT0544tPIEUyC/mL0bPmz0jiG64fPCvYgLwd82Xtnl1m50yK2PZze28jHRafq2HzpkMfvtgOwbLrI1GdxGy6T0IdBN1mXda3jC2I8A3ZkXueaAjOrU30uvAYoXGyfmrjUTe7ZF90W70ff+I64MUym2rj3OXsH0dE/doC/vHwFTJhEkOv8NN5+JbIBcF2bWeiI2cOWfdvlwwJt1vSNQFJfJ44/Clfa+67XHaqCh39zIPs7+oynfgh0TAEOd7G+LJV4CuSOaG8J+ea2tpDB1YMA5u3CyUbof4x1bNYXIN40dYqc/VFjQ1rxqiAJoXBhmtjdNVf0o8izP8gKkRLrSE+fkoY+XbG+At/4Cyq4ZM5yQsQp8tBwQc/UGyBlCHcRuqwl8cW9Y2XSgDBc2OtS39j9XxYj7hJ2xHk/g3fhHkAIk9QVSngMCpA6af77XK/QFGJ9d2DAUQCylTJKd/pLluqcXePUMqtkQDIcm1OP5zLA+vLZdNE2wXrddAtMBR7R6Y0qmBHsEg44ppv7ZMpw1HysscpNICxDMyGNzKJAccgRVE60Gko0XIxWZe2ABorfkiL7JfHjsQS8GSiaOa/VdyvXKW7leSrOMIStADDmmD/0mLwEf/wYYs1hIuGOXRGWR87sD4vkE3kZX5/ZiS1gsbcJxCBnJFB9ngoqj0HRcQvic1ddOnVNBx4wGzWk9PWliQHxJG7GdZfl2yO+1X2mz2HAJox3hcOwNrluF4ul8fJo0Bf9FVfAIy5WyPakrqDF/cWPWXwFtpaXPehSwJ3U3gIuJHQ5+fGuWlpTxn0PTNJ3TZVpUiYtQpdxdYUYDJDj30gV33fvkI2wANyDCm0jOTu0o3bCUat9PoQIpeVUYSMhvJw5SIY6xVq4AhZ52KzC+CF5DA3SICRQUkw3QZwRSmojgrKd+xeO2DMVMiZvxGL9UmA+aOQaTPLwqjJq43jv082MLCDFcNY1PrKf0Cl8dsEJhVq4KhI9qFTini3L9lYYa2LgDruKaKBdI2fVGFLnh1bgaXpZ40gv7OH28nnMy12sTxBzbFVhZw+ehzFQYQ4O+ZcnF9ocPEEIwDDRxh+8c5ElXvJZmV8rl19YScEAInWLMwEHfN2op3crzCHqYz65Pk/u8eeM/8nt1omgribNR2KoBEpS4l0FEzrpu6tlVVdQyLigDA=="
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":[{\"EvaType\":1,\"EvaCode\":\"Final\",\"EvaTypeCount\":1,\"EvaCourseCount\":0,\"IsRead\":0,\"EvaluationCount\":0}],\"Token\":\"RaIMd7mGRO8vbueJ1z0RIN9elj49Gbznjzxlr7AGrzEGhY7ZaoR2ZVqhwJgYTer3L3snsn15eKbJc18abubqe6fXVxD0UJYQplfe6Pj15xBeq5NzVCvpWfxHalc85ahWXTEuxfWqJyuCCg+e3pZV4zx0m5lTKRNKiDdpxyIjfCrqeMge9d3aCANvTxmDe1RM63Bvxk60kmMYEyUJwnoPtShUiuq14OD09/qyrPsDoHjYPjwn1d1DEIqUGzUMCFuV/e8VtRZ7YtoznZU8MhliRXp3jFh7m78/maBpYcs7X2pGUgnn6UocMQ4mBsAJRzxlVks4EEiwxfR2G3hJK/5TRLOvYHvXhmE1sRbyFCUqxXD8K/I9YuWKY4uT68TO19azXhFcVNiI88W3WAe6uyuRNRYKPZ1rzez2onxrVuqWu2gvj7SP0Wh+ni6R4kfjEmA+eo88GHeR22tKvtZlRlW3nqqeg7CSYnQVtThAZM1qO5jkGNoTdNZ44aHVCkkWRxb9ljv7NFLkhSNmw9VfSZRoccqVjNNR9/jsA4J6h1g4vrw=\",\"RequestId\":\"d401ab96-2cc3-4415-a2ce-a92d0caa71f5\"}"
+  },
+  {
+    "idx": 24,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.FunctionData.SaveFunctionData",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.FunctionData.SaveFunctionData"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ3Fx6fLqPxu6QaPnM93eNaLlBPpMP6Zii1A1EUIGM6VxeEy5mm/XB1UYoZ7gwjcuZ0tnTRfYrTjVaNVh+78ivUaq2I1TIgsHdkvYPJWz1ZvOwolamyPxPc28a5mzZ13I7wlgqOPQAX5Xb10kM2JcghLFrU/FXuGdEQjZnbbpiULvNjbFllla/sGEjRMbWaSX62sRnajjlrub8+xXoKGL4sNRuVCulNmohlgSDwLox3P0du301+WC4XcaU40fP/VuxVPQ0dAil8YGj6e+ezijwkVuv8GIBuC5H8vj2MnR64vfP7fpcpD8htpPrXLdSAZSrEQOZCTnMAIi23TmmNyxWulNus4rVhZHgEiElMOftbPw9suqRsd96I2LoBz40AfxA3EubejiWboxVt/PLNPKlQbiLZmZFOJLzBFD1NJRHudHMqv6ZnqRB7nxxdvkRpXl0BGnPdL+ejbCXzu5tf2cHy+Qz8i67r4zgZZsxI1MP+B9EhQlVUKX62Vvu4ebejiTUBA26/4w2bLz0OrQJKF9Q04GcDh7bbnQfF753CzV9Z1Eoq38N1sVEmJl1A8Is3IKAbAcgpUiAFcpO28UUwyDRW8R47n4adxlNG2RSGwVansRwW+Gw/IRqO5PVYyhmfXHOxKOkepOkmRWG45rLDwuVBL6YcX7jUPoHLAJ6mnKaRiW/vR+MRE3vF3o4aKK14NbW+9oIUG05dTPYWneg2vR0JOuNLOO+MB2K8Ab6DS+k8GF6CANOM6gynx3YOSeFYGUGQ75p9BmsyJsCROcKzk39EQTnNrCUOyJpTgT4GcenoNQ6M2TqiRYXYkLY/rB4AFMaIMPKiG8Qydqm5TIvgS1tBifRtNsHDx5LWkJkcwLXRvEwjo+gL0Cc2DSVigGJQDpfw56sLOKOGUG9T9fq5VBmnKSavUWkVBQmxeUkUyTMWquZOUUsxLAIBF2AdLV+IkrWPJcvUvkMXsRnNPWPPI6JhR6GJ7cxmDSxMkrgLTt9sCkBtTeGnKGrDHzW/dncdmrlIzicKBSecQe8b/xVUsPXy8Br+GBDoEAU+Dc6vOFEWdOGuxFicg+uxYrc1T92fqwn3wr3lRMcyba22mNdQVyJllvv3LB9B9kCACs0R1CTJF6QteLHnmQWegYr6oB5kbdm7RkGiW5RM8PTSEDUgFrBqy9lL/hge3J8v6rEt1T52ut6RzqLEO1RVRRO+QQ8ii79GEFBN1AfTZKkFzy1CQgnLZCfUpZe0oZjjjqwvDAe0WPmDyNEFPdCDl5LNvs4gnUl01ZjwqqnJhRiEFPzwIr9LcbD/ZV7t2le72RBo7WfJE1w0GqjFFAw/J58Wnn3a+6Q+3BojOrLEYJj3O4uE9diaekdYkjxsylch42B58h1kNW7iI1765xBuPXUUuaO5exYqipvACm62fsAUDTC2ngM7oiUKPtG5QQtHyCDCK8G8aAhPvG4+FSxWmktk2+lfPYrcmUAGIHpXajOp/e22rGKeViAjkKsJ8L8y4c0mzJ8zaOPZ22zEJjRwR+dhkDsPzIeFxtbgAwy+TPpo9aHvHyxFME5xtg2CZcBw46tO0j1oou8ly9S+QxexGc09Y88jomFFbrtSUQwB5Kv5BZZxCRueb3J08Xhc8GNMmfPRu61E5MhUnPCD8nXke+WiH3rmWhC3Us+W6QugfSx91OztvN+dTo04FuskXhUioLjn9wU3J/ik+SVqcHlL1ANxRYUE7N6XVmVN6LBBowQVWEtHyOWfR7gGoz3pKvna1GBBSqGbf5CgIou0bWSE0T5RvkMo6ojBvrADSsUy08a5REUf4HlkjyXL1L5DF7EZzT1jzyOiYUHieLqdzqvslTv970z2P6c/cnTxeFzwY0yZ89G7rUTkyFSc8IPydeR75aIfeuZaELdSz5bpC6B9LH3U7O28351OjTgW6yReFSKguOf3BTcn9zyuGcSllcisnVL70yXug8"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":{\"IsSuccess\":true},\"Token\":\"RaIMd7mGRO8vbueJ1z0RIN9elj49Gbznjzxlr7AGrzEGhY7ZaoR2ZVqhwJgYTer3L3snsn15eKbJc18abubqe6fXVxD0UJYQplfe6Pj15xBeq5NzVCvpWfxHalc85ahWXTEuxfWqJyuCCg+e3pZV4zx0m5lTKRNKiDdpxyIjfCrqeMge9d3aCANvTxmDe1RM63Bvxk60kmMYEyUJwnoPtShUiuq14OD09/qyrPsDoHjYPjwn1d1DEIqUGzUMCFuV/e8VtRZ7YtoznZU8MhliRXp3jFh7m78/maBpYcs7X2pGUgnn6UocMQ4mBsAJRzxlVks4EEiwxfR2G3hJK/5TRLOvYHvXhmE1sRbyFCUqxXD8K/I9YuWKY4uT68TO19azXhFcVNiI88W3WAe6uyuRNRYKPZ1rzez2onxrVuqWu2gvj7SP0Wh+ni6R4kfjEmA+eo88GHeR22tKvtZlRlW3nqqeg7CSYnQVtThAZM1qO5jkGNoTdNZ44aHVCkkWRxb9ljv7NFLkhSNmw9VfSZRoccqVjNNR9/jsA4J6h1g4vrw=\",\"RequestId\":\"a4c9470b-09fa-4df4-9ba5-8729bfc7fca9\"}"
+  },
+  {
+    "idx": 25,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.MyTask.MyTask.GetMyTaskItemDeail",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.MyTask.MyTask.GetMyTaskItemDeail"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ3Fx6fLqPxu6QaPnM93eNaLlBPpMP6Zii1A1EUIGM6VxeEy5mm/XB1UYoZ7gwjcuZ0tnTRfYrTjVaNVh+78ivUaq2I1TIgsHdkvYPJWz1ZvOwolamyPxPc28a5mzZ13I7wlgqOPQAX5Xb10kM2JcghLFrU/FXuGdEQjZnbbpiULvNjbFllla/sGEjRMbWaSX62sRnajjlrub8+xXoKGL4sNRuVCulNmohlgSDwLox3P0du301+WC4XcaU40fP/VuxVPQ0dAil8YGj6e+ezijwkVuv8GIBuC5H8vj2MnR64vfP7fpcpD8htpPrXLdSAZSrEQOZCTnMAIi23TmmNyxWulNus4rVhZHgEiElMOftbPw9suqRsd96I2LoBz40AfxA3EubejiWboxVt/PLNPKlQbiLZmZFOJLzBFD1NJRHudHMqv6ZnqRB7nxxdvkRpXl0BGnPdL+ejbCXzu5tf2cHy+Qz8i67r4zgZZsxI1MP+B9EhQlVUKX62Vvu4ebejiTUBA26/4w2bLz0OrQJKF9Q04GcDh7bbnQfF753CzV9Z1Eoq38N1sVEmJl1A8Is3IKAbAcgpUiAFcpO28UUwyDRW8R47n4adxlNG2RSGwVansRwW+Gw/IRqO5PVYyhmfXHOxKOkepOkmRWG45rLDwuVBL6YcX7jUPoHLAJ6mnKaRiW/vR+MRE3vF3o4aKK14NbW+9oIUG05dTPYWneg2vR0JOuNLOO+MB2K8Ab6DS+k8GF6CANOM6gynx3YOSeFYGUGQ75p9BmsyJsCROcKzk39EQTnNrCUOyJpTgT4GcenoNQ6M2TqiRYXYkLY/rB4AFMaIMPKiG8Qydqm5TIvgS1tBifRtNsHDx5LWkJkcwLXRvEwjo+gL0Cc2DSVigGJQDpfyMmZwmd1/hbYhReR6e3k+Mcq+2tBryQHdrWEScUL/fQGQMlRgK2B0xV8sohzRMIGWqmIt1waWFuiZ7eoL7QfHdFhGc7LT3XAcPmfbXpirBk7dBoKsneNfz2EH9r0ilsgqFwYmyvsT7N8WjLAR7lbTuCC6eWX8Umb48qoaLuIj3nW+rLmTP2jRJ3ASDYF5ZqYxHyK+/fc4XuPDVPpEX2V7kUGowZHGw83zuisDMvb5Vz/dFZf6dQ/9w+dNobL/DU+7aHR63Rbruhj/5tlz7PvroIlT9kDjrEst+gBQhzD92ULY9HwaAPI57O5hvbuExHhHSWcCZslrjEvSqWmdUPojkMUM9Y9HS8U4nOo2z6jThYu4EmfNfXNowDJi8sryhasQChUgPf6n2HlT/X6ogoonWd/Qftgzwni/7OLjUCk5qbY7/GiiMduzknjyL8RzE+SQsKOu/Lj7dYGwx9oFhdC/OboMTK6rVcGuzMmOMirQNBYCBp7nCrTSR1NY1AGIUmma5vePbQ0dkDFL7SlduWi5Uw7nfI+lE7hFygQUgEcctzmtzGI9vUjLmCFh/V2u8mjzeHCPsUnpgLK5mSP/t+cJrkhVtdczBy54Wut7yoOJpvztV5Lg+cFJinoeer34pyBQ=="
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":{\"TotalCount\":10,\"Items\":[{\"Semester\":\"2025-2026-1\",\"ClassCode\":\"e5220a4e9b36437698cf049e1605fc6a\",\"CourseCode\":\"D011041001\",\"CourseName\":\"材料近代测试方法\",\"ClassNo\":\"材料近代测试方法-1\",\"TeacherNames\":\"杨光,李彬,王慧\",\"TaskStatus\":1,\"HasScoreLevel\":1,\"EvaType\":1,\"PersonCode\":\"SY2527221\",\"QuestionnaireId\":\"10\",\"QuestionnaireName\":\"2025-2026学年第一学期研究生课程质量评价问卷\",\"Status\":0,\"StartTime\":\"2026-01-01 00:00:00\",\"EndTime\":\"2026-03-31 23:59:59\",\"TimeType\":0},{\"Semester\":\"2025-2026-1\",\"ClassCode\":\"ed126bcf34db496e915984ee315544d2\",\"CourseCode\":\"M281021001\",\"CourseName\":\"新时代中国特色社会主义理论与实践\",\"ClassNo\":\"新时代中国特色社会主义理论与实践-沙河4班\",\"TeacherNames\":\"孙新,王江伟\",\"TaskStatus\":1,\"HasScoreLevel\":1,\"EvaType\":1,\"PersonCode\":\"SY2527221\",\"QuestionnaireId\":\"22\",\"QuestionnaireName\":\"2025-2026学年第一学期研究生课程质量评价问卷\",\"Status\":0,\"StartTime\":\"2026-"
+  },
+  {
+    "idx": 26,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.Questionnaire.FindFinalTaskTip",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.Questionnaire.FindFinalTaskTip"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ3Fx6fLqPxu6QaPnM93eNaLlBPpMP6Zii1A1EUIGM6VxeEy5mm/XB1UYoZ7gwjcuZ0tnTRfYrTjVaNVh+78ivUaq2I1TIgsHdkvYPJWz1ZvOwolamyPxPc28a5mzZ13I7wlgqOPQAX5Xb10kM2JcghLFrU/FXuGdEQjZnbbpiULvNjbFllla/sGEjRMbWaSX62sRnajjlrub8+xXoKGL4sNRuVCulNmohlgSDwLox3P0du301+WC4XcaU40fP/VuxVPQ0dAil8YGj6e+ezijwkVuv8GIBuC5H8vj2MnR64vfP7fpcpD8htpPrXLdSAZSrEQOZCTnMAIi23TmmNyxWulNus4rVhZHgEiElMOftbPw9suqRsd96I2LoBz40AfxA3EubejiWboxVt/PLNPKlQbiLZmZFOJLzBFD1NJRHudHMqv6ZnqRB7nxxdvkRpXl0BGnPdL+ejbCXzu5tf2cHy+Qz8i67r4zgZZsxI1MP+B9EhQlVUKX62Vvu4ebejiTUBA26/4w2bLz0OrQJKF9Q04GcDh7bbnQfF753CzV9Z1Eoq38N1sVEmJl1A8Is3IKAbAcgpUiAFcpO28UUwyDRW8R47n4adxlNG2RSGwVansRwW+Gw/IRqO5PVYyhmfXHOxKOkepOkmRWG45rLDwuVBL6YcX7jUPoHLAJ6mnKaRiW/vR+MRE3vF3o4aKK14NbW+9oIUG05dTPYWneg2vR0JOuNLOO+MB2K8Ab6DS+k8GF6CANOM6gynx3YOSeFYGUGQ75p9BmsyJsCROcKzk39EQTnNrCUOyJpTgT4GcenoNQ6M2TqiRYXYkLY/rB4AFMaIMPKiG8Qydqm5TIvgS1tBifRtNsHDx5LWkJkcwLXRvEwjo+gL0Cc2DSVigGJQDpf1ba+MNfpGQhKKaeP48SelApjMvQhzau7f7FQtd46IwVgSFfcjhoBBQmNJIskDejXCV8NIPKowHKfdzI14XBUxh1NOy4YvZfODjt1jLAcww1sziULWTdUkYOrOeYvcZgX4SnCTrxDpTL8RxMLBGZV/Iux99xUehOGCSETsqTH00IlmhQN9yOXpKFUgoTECV6qhilahPhLAx5z9cHlLjvC+wK9t2r4NFxd2LyFjXB3NqbEp7hZK4ntGUe8shxrK0trcPiAzt4EQyve48QW3hFNzm+kiSXA3guRzCCtUd9/sEhDv7J6L0lcGstHQvv9rd1d4++UTukxeib/WG8SZTNCwH2xEEXH0k11SmqgUKJA4JEAff4aaLrcOcV3bE0cughQLvFhDL/Aq+lrXqxfb3qIB+1OQ4Ak3prc6b9+nBDmgC+kkfABAV/vkSFEhiXNHM+MA=="
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":{\"Id\":5,\"TaskId\":5,\"QuestionnaireId\":0,\"EnterConfirmText\":\"您好，感谢您参加本次学生评价。您的回答将成为改进教学的重要依据，题目选项无对错之分，请根据自己的切身感受如实填答。\\n您的个人信息将得到严格保密，谢谢您的支持。\",\"EnterConfirmDuration\":5,\"HasEnterConfirmText\":false,\"SubmitConfirmText\":\"感谢您参与评价。\\n评价内容一经提交，无法修改，请确认是否提交。\",\"SubmitConfirmDuration\":5,\"HasSubmitConfirmText\":false,\"IsAllowStudentModifyAnswer\":false},\"Token\":\"RaIMd7mGRO8vbueJ1z0RIN9elj49Gbznjzxlr7AGrzEGhY7ZaoR2ZVqhwJgYTer3L3snsn15eKbJc18abubqe6fXVxD0UJYQplfe6Pj15xBeq5NzVCvpWfxHalc85ahWXTEuxfWqJyuCCg+e3pZV4zx0m5lTKRNKiDdpxyIjfCrqeMge9d3aCANvTxmDe1RM63Bvxk60kmMYEyUJwnoPtShUiuq14OD09/qyrPsDoHjYPjwn1d1DEIqUGzUMCFuV/e8VtRZ7YtoznZU8MhliRXp3jFh7m78/maBpYcs7X2pGUgnn6UocMQ4mBsAJRzxlVks4EEiwxfR2G3hJK/5TRLOvYHvXhmE1sRbyFCUqxXD8K/I9YuWKY4uT68TO19azXhFcVNiI88W3WAe6uyuRNRYKPZ1rzez2onxrVuqWu2gvj7SP0Wh+ni6R4k"
+  },
+  {
+    "idx": 27,
+    "url": "https://yjskcpj.buaa.edu.cn/questionnaire/FinalPublishItemDetail/FindScoreLevel",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ3Fx6fLqPxu6QaPnM93eNaLlBPpMP6Zii1A1EUIGM6VxeEy5mm/XB1UYoZ7gwjcuZ0tnTRfYrTjVaNVh+78ivUaq2I1TIgsHdkvYPJWz1ZvOwolamyPxPc28a5mzZ13I7wlgqOPQAX5Xb10kM2JcghLFrU/FXuGdEQjZnbbpiULvNjbFllla/sGEjRMbWaSX62sRnajjlrub8+xXoKGL4sNRuVCulNmohlgSDwLox3P0du301+WC4XcaU40fP/VuxVPQ0dAil8YGj6e+ezijwkVuv8GIBuC5H8vj2MnR64vfP7fpcpD8htpPrXLdSAZSrEQOZCTnMAIi23TmmNyxWulNus4rVhZHgEiElMOftbPw9suqRsd96I2LoBz40AfxA3EubejiWboxVt/PLNPKlQbiLZmZFOJLzBFD1NJRHudHMqv6ZnqRB7nxxdvkRpXl0BGnPdL+ejbCXzu5tf2cHy+Qz8i67r4zgZZsxI1MP+B9EhQlVUKX62Vvu4ebejiTUBA26/4w2bLz0OrQJKF9Q04GcDh7bbnQfF753CzV9Z1Eoq38N1sVEmJl1A8Is3IKAbAcgpUiAFcpO28UUwyDRW8R47n4adxlNG2RSGwVansRwW+Gw/IRqO5PVYyhmfXHOxKOkepOkmRWG45rLDwuVBL6YcX7jUPoHLAJ6mnKaRiW/vR+MRE3vF3o4aKK14NbW+9oIUG05dTPYWneg2vR0JOuNLOO+MB2K8Ab6DS+k8GF6CANOM6gynx3YOSeFYGUGQ75p9BmsyJsCROcKzk39EQTnNrCUOyJpTgT4GcenoNQ6M2TqiRYXYkLY/rB4AFMaIMPKiG8Qydqm5TIvgS1tBifRtNsHDx5LWkJkcwLXRvETqutFbIyqWI2xqWgy6I0rcNansSvMS/PDachO4N7n+lDxo491vWANfqe8BtuHGNecj7hTrO0CtkW4yfC+FAwA5VRfHREZCeuCUX46LdvzQtl+ToAWjsXOg4myzBrydJ8eLHYnPpuY2x6i2A+F91UuBy14Z/UKKzBdt+RGFpLAyvom+aZHWCXtyrd8A2z2PEaWGXzf7HFiZc1GNCmZsxqyE8ljUIYtIUojtLSl1kc0JRTk9qwtUmgvX/7PxWfI8X6IOvhqdM7wlGJsy6bespTzfA9AWEdABqaoeNlcLgesTFwtKmQ2RwKPU2BNXxEH3p9AJuQSgo43VZtFpPJoC8cMfWuMpT5zRDeFHNv1kCQLtB11o4+XaSvloYMM2pDnmrjo+zYcT7LS9yLw6c+8pGB3rcJVqmQZ3FrcWeYeG6O6lJij7HtC4HWWlsrxiTiAmZ6lfXa5SMcf1X6UCklL1Z2OKzj125aasvhaV2UAPbzIASON39AfxijnVl4xCwIaGO5K107uU0VDXwxOUMgFNUSPw2thKpeNIwJuEOR+fFYqLQ="
+    },
+    "responseHeaders": {
+      "content-type": "application/json; charset=utf-8"
+    },
+    "responseSnippet": "{\"Status\":200,\"Success\":true,\"Message\":\"OK\",\"Value\":{\"CanEdit\":false,\"IsScoreLevel\":false},\"Token\":\"RaIMd7mGRO8vbueJ1z0RIN9elj49Gbznjzxlr7AGrzEGhY7ZaoR2ZVqhwJgYTer3L3snsn15eKbJc18abubqe6fXVxD0UJYQplfe6Pj15xBeq5NzVCvpWfxHalc85ahWXTEuxfWqJyuCCg+e3pZV4zx0m5lTKRNKiDdpxyIjfCrqeMge9d3aCANvTxmDe1RM63Bvxk60kmMYEyUJwnoPtShUiuq14OD09/qyrPsDoHjYPjwn1d1DEIqUGzUMCFuV/e8VtRZ7YtoznZU8MhliRXp3jFh7m78/maBpYcs7X2pGUgnn6UocMQ4mBsAJRzxlVks4EEiwxfR2G3hJK/5TRLOvYHvXhmE1sRbyFCUqxXD8K/I9YuWKY4uT68TO19azXhFcVNiI88W3WAe6uyuRNRYKPZ1rzez2onxrVuqWu2gvj7SP0Wh+ni6R4kfjEmA+eo88GHeR22tKvtZlRlW3nqqeg7CSYnQVtThAZM1qO5jkGNoTdNZ44aHVCkkWRxb9ljv7NFLkhSNmw9VfSZRoccqVjNNR9/jsA4J6h1g4vrw=\",\"RequestId\":\"ed2b791e-9a7d-4d7c-8c88-2cc6a9ece887\",\"IsDownload\":false}"
+  },
+  {
+    "idx": 28,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.Questionnaire.GetFinalQuestionnaireHeader",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.Questionnaire.GetFinalQuestionnaireHeader"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ3Fx6fLqPxu6QaPnM93eNaLlBPpMP6Zii1A1EUIGM6VxeEy5mm/XB1UYoZ7gwjcuZ0tnTRfYrTjVaNVh+78ivUaq2I1TIgsHdkvYPJWz1ZvOwolamyPxPc28a5mzZ13I7wlgqOPQAX5Xb10kM2JcghLFrU/FXuGdEQjZnbbpiULvNjbFllla/sGEjRMbWaSX62sRnajjlrub8+xXoKGL4sNRuVCulNmohlgSDwLox3P0du301+WC4XcaU40fP/VuxVPQ0dAil8YGj6e+ezijwkVuv8GIBuC5H8vj2MnR64vfP7fpcpD8htpPrXLdSAZSrEQOZCTnMAIi23TmmNyxWulNus4rVhZHgEiElMOftbPw9suqRsd96I2LoBz40AfxA3EubejiWboxVt/PLNPKlQbiLZmZFOJLzBFD1NJRHudHMqv6ZnqRB7nxxdvkRpXl0BGnPdL+ejbCXzu5tf2cHy+Qz8i67r4zgZZsxI1MP+B9EhQlVUKX62Vvu4ebejiTUBA26/4w2bLz0OrQJKF9Q04GcDh7bbnQfF753CzV9Z1Eoq38N1sVEmJl1A8Is3IKAbAcgpUiAFcpO28UUwyDRW8R47n4adxlNG2RSGwVansRwW+Gw/IRqO5PVYyhmfXHOxKOkepOkmRWG45rLDwuVBL6YcX7jUPoHLAJ6mnKaRiW/vR+MRE3vF3o4aKK14NbW+9oIUG05dTPYWneg2vR0JOuNLOO+MB2K8Ab6DS+k8GF6CANOM6gynx3YOSeFYGUGQ75p9BmsyJsCROcKzk39EQTnNrCUOyJpTgT4GcenoNQ6M2TqiRYXYkLY/rB4AFMaIMPKiG8Qydqm5TIvgS1tBifRtNsHDx5LWkJkcwLXRvEwjo+gL0Cc2DSVigGJQDpf1ba+MNfpGQhKKaeP48SelC4rrfGEZUsWQuWQBhro9oV5L8pewvgXxPfH+V5de6bSsTQYGc8/qv4xOKXa7Svi1zQaZ+0ASMooX6W3AfmG1mJzWZlIBkxIT8CcySAL5gIee30eN33qMqyCWFVfTBgonzZ/fGHg3j1+D6XiTMFUEoNpbaKwdJfd4TNHZjTpe8DnR1yrgZ72jBBO69y3OLZMstG8WiK8sRYdDsodoYvY9WXmN0LxzLPZMxvBYaZq8OQj/xn6txWqCL9Ft8yIZ3btcC84N/xtnnJu0bVKa0y9lvhSlfgeX8Zb/G9eUFNfzEpwQ5/ipILUMWCT72SGWoM2qLjK8kqMF4kaqo82ow6W8hAldtWKDIaels4KLkBp//JJQnT4D+XszhR8YBzcz5pyPXCGigNNBlmER6nxcUKvWk053COa9F0sW/OjTgPyIsfUHNM3SwannSYNd/H+YmAshJf1ksDd//+s9+6nuX5TPf8aA/D7pfXI4iXdliuHqJYRLCxCJnnDnhSh74nxeLRCb/4JQIEn9E7r+0YdBK0GSQWVfDKOKIs3S8MsapoeXO9r286m/1/UwmwbaYtBhN4iW8="
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":{\"CourseList\":[{\"CourseList\":{\"Name\":\"课程\",\"Id\":10,\"TypeCode\":\"Final\"},\"TeacherList\":[{\"ClassCode\":\"e5220a4e9b36437698cf049e1605fc6a\",\"TeacherCode\":\"06528\",\"TeacherName\":\"杨光\",\"AvatarUrl\":\"\",\"DetailId\":6686,\"AnswerStatus\":0,\"StartTime\":\"2026-01-01 00:00:00\",\"EndTime\":\"2026-03-31 23:59:59\",\"Id\":10,\"TypeCode\":\"Final\"},{\"ClassCode\":\"e5220a4e9b36437698cf049e1605fc6a\",\"TeacherCode\":\"08806\",\"TeacherName\":\"王慧\",\"AvatarUrl\":\"\",\"DetailId\":7001,\"AnswerStatus\":0,\"StartTime\":\"2026-01-01 00:00:00\",\"EndTime\":\"2026-03-31 23:59:59\",\"Id\":10,\"TypeCode\":\"Final\"},{\"ClassCode\":\"e5220a4e9b36437698cf049e1605fc6a\",\"TeacherCode\":\"10015\",\"TeacherName\":\"李彬\",\"AvatarUrl\":\"\",\"DetailId\":7316,\"AnswerStatus\":0,\"StartTime\":\"2026-01-01 00:00:00\",\"EndTime\":\"2026-03-31 23:59:59\",\"Id\":10,\"TypeCode\":\"Final\"}],\"TeachingAss"
+  },
+  {
+    "idx": 29,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.MyTask.MyTask.GetMyTaskItemDeail",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.MyTask.MyTask.GetMyTaskItemDeail"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ3Fx6fLqPxu6QaPnM93eNaLlBPpMP6Zii1A1EUIGM6VxeEy5mm/XB1UYoZ7gwjcuZ0tnTRfYrTjVaNVh+78ivUaq2I1TIgsHdkvYPJWz1ZvOwolamyPxPc28a5mzZ13I7wlgqOPQAX5Xb10kM2JcghLFrU/FXuGdEQjZnbbpiULvNjbFllla/sGEjRMbWaSX62sRnajjlrub8+xXoKGL4sNRuVCulNmohlgSDwLox3P0du301+WC4XcaU40fP/VuxVPQ0dAil8YGj6e+ezijwkVuv8GIBuC5H8vj2MnR64vfP7fpcpD8htpPrXLdSAZSrEQOZCTnMAIi23TmmNyxWulNus4rVhZHgEiElMOftbPw9suqRsd96I2LoBz40AfxA3EubejiWboxVt/PLNPKlQbiLZmZFOJLzBFD1NJRHudHMqv6ZnqRB7nxxdvkRpXl0BGnPdL+ejbCXzu5tf2cHy+Qz8i67r4zgZZsxI1MP+B9EhQlVUKX62Vvu4ebejiTUBA26/4w2bLz0OrQJKF9Q04GcDh7bbnQfF753CzV9Z1Eoq38N1sVEmJl1A8Is3IKAbAcgpUiAFcpO28UUwyDRW8R47n4adxlNG2RSGwVansRwW+Gw/IRqO5PVYyhmfXHOxKOkepOkmRWG45rLDwuVBL6YcX7jUPoHLAJ6mnKaRiW/vR+MRE3vF3o4aKK14NbW+9oIUG05dTPYWneg2vR0JOuNLOO+MB2K8Ab6DS+k8GF6CANOM6gynx3YOSeFYGUGQ75p9BmsyJsCROcKzk39EQTnNrCUOyJpTgT4GcenoNQ6M2TqiRYXYkLY/rB4AFMaIMPKiG8Qydqm5TIvgS1tBifRtNsHDx5LWkJkcwLXRvEwjo+gL0Cc2DSVigGJQDpfyMmZwmd1/hbYhReR6e3k+Mcq+2tBryQHdrWEScUL/fQGQMlRgK2B0xV8sohzRMIGWqmIt1waWFuiZ7eoL7QfHc1+MHTXiFlT+GcFPRiGAiqND3XQmy5Ie7Z4m2TZSBawiV8NIPKowHKfdzI14XBUxhJeQbSkjPD8XKo8relhGe1sziULWTdUkYOrOeYvcZgX4SnCTrxDpTL8RxMLBGZV/Iux99xUehOGCSETsqTH00IlmhQN9yOXpKFUgoTECV6qhilahPhLAx5z9cHlLjvC+wK9t2r4NFxd2LyFjXB3NqbEp7hZK4ntGUe8shxrK0trZ1KBBWr47je4rtXMRY+Ezaw+A6WcCfnrVQjy72bZrI0tqtGjqrDVGhzE5nYlEgPfNiBJpB5s+2GEsJZj16cvMM3JgmKuBalOShclwcbrcaWSsDwv9QYb2D5tCg0U9Gwy+rgmUrPCEoPPGtOPkQCRgsCRY/RhStd+STx9pf39ZMfVrmDx7JqwemuFNk+VWYA5Vnn/Yx002QomZ/Al7CcPc8="
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":{\"TotalCount\":10,\"Items\":[{\"Semester\":\"2025-2026-1\",\"ClassCode\":\"e5220a4e9b36437698cf049e1605fc6a\",\"CourseCode\":\"D011041001\",\"CourseName\":\"材料近代测试方法\",\"ClassNo\":\"材料近代测试方法-1\",\"TeacherNames\":\"王慧,杨光,李彬\",\"TaskStatus\":1,\"HasScoreLevel\":1,\"EvaType\":1,\"PersonCode\":\"SY2527221\",\"QuestionnaireId\":\"10\",\"QuestionnaireName\":\"2025-2026学年第一学期研究生课程质量评价问卷\",\"Status\":0,\"StartTime\":\"2026-01-01 00:00:00\",\"EndTime\":\"2026-03-31 23:59:59\",\"TimeType\":0},{\"Semester\":\"2025-2026-1\",\"ClassCode\":\"ed126bcf34db496e915984ee315544d2\",\"CourseCode\":\"M281021001\",\"CourseName\":\"新时代中国特色社会主义理论与实践\",\"ClassNo\":\"新时代中国特色社会主义理论与实践-沙河4班\",\"TeacherNames\":\"孙新,王江伟\",\"TaskStatus\":1,\"HasScoreLevel\":1,\"EvaType\":1,\"PersonCode\":\"SY2527221\",\"QuestionnaireId\":\"22\",\"QuestionnaireName\":\"2025-2026学年第一学期研究生课程质量评价问卷\",\"Status\":0,\"StartTime\":\"2026-"
+  },
+  {
+    "idx": 30,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.Questionnaire.GetQuestionnaire",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.Questionnaire.GetQuestionnaire"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ3Fx6fLqPxu6QaPnM93eNaLlBPpMP6Zii1A1EUIGM6VxeEy5mm/XB1UYoZ7gwjcuZ0tnTRfYrTjVaNVh+78ivUaq2I1TIgsHdkvYPJWz1ZvOwolamyPxPc28a5mzZ13I7wlgqOPQAX5Xb10kM2JcghLFrU/FXuGdEQjZnbbpiULvNjbFllla/sGEjRMbWaSX62sRnajjlrub8+xXoKGL4sNRuVCulNmohlgSDwLox3P0du301+WC4XcaU40fP/VuxVPQ0dAil8YGj6e+ezijwkVuv8GIBuC5H8vj2MnR64vfP7fpcpD8htpPrXLdSAZSrEQOZCTnMAIi23TmmNyxWulNus4rVhZHgEiElMOftbPw9suqRsd96I2LoBz40AfxA3EubejiWboxVt/PLNPKlQbiLZmZFOJLzBFD1NJRHudHMqv6ZnqRB7nxxdvkRpXl0BGnPdL+ejbCXzu5tf2cHy+Qz8i67r4zgZZsxI1MP+B9EhQlVUKX62Vvu4ebejiTUBA26/4w2bLz0OrQJKF9Q04GcDh7bbnQfF753CzV9Z1Eoq38N1sVEmJl1A8Is3IKAbAcgpUiAFcpO28UUwyDRW8R47n4adxlNG2RSGwVansRwW+Gw/IRqO5PVYyhmfXHOxKOkepOkmRWG45rLDwuVBL6YcX7jUPoHLAJ6mnKaRiW/vR+MRE3vF3o4aKK14NbW+9oIUG05dTPYWneg2vR0JOuNLOO+MB2K8Ab6DS+k8GF6CANOM6gynx3YOSeFYGUGQ75p9BmsyJsCROcKzk39EQTnNrCUOyJpTgT4GcenoNQ6M2TqiRYXYkLY/rB4AFMaIMPKiG8Qydqm5TIvgS1tBifRtNsHDx5LWkJkcwLXRvEwjo+gL0Cc2DSVigGJQDpf1ba+MNfpGQhKKaeP48SelCAddjRh5JzAsxTZV02d/BGfK4vHr48/GU0e7DQPWvHvyV8NIPKowHKfdzI14XBUxhJeQbSkjPD8XKo8relhGe1sziULWTdUkYOrOeYvcZgX4SnCTrxDpTL8RxMLBGZV/Iux99xUehOGCSETsqTH00IlmhQN9yOXpKFUgoTECV6qhilahPhLAx5z9cHlLjvC+wK9t2r4NFxd2LyFjXB3NqbEp7hZK4ntGUe8shxrK0trZ1KBBWr47je4rtXMRY+Ezaw+A6WcCfnrVQjy72bZrI0tqtGjqrDVGhzE5nYlEgPfNiBJpB5s+2GEsJZj16cvMM3JgmKuBalOShclwcbrcaWSsDwv9QYb2D5tCg0U9Gwy6+Uxi3vI5WrroU1uKjB2U80zn6GOHT/fUdJdvA/Lzs8k+Xvum64Por/q76NyuOxNQ2thKpeNIwJuEOR+fFYqLQ="
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":{\"Props\":{\"Questionnaireid\":10,\"CustomAttr\":\"{\\\"MasterLimitNum\\\":0,\\\"AssistantLimitNum\\\":0}\",\"TopDesc\":\"亲爱的同学：\\n感谢您参加课程质量评价！\\n课程质量评价是学校教学质量保障工作的重要内容之一，您的评价结果和意见将会成为学校政策制定、资源分配、教师考评等多项工作的重要参考信息和决策依据。本问卷包含三个部分：一是对课程的学习体验与学习效果评价；二是对每位任课教师的教学评价；三是对课程与教师的意见和建议。请您以公正、客观的态度认真做答以下问题。\",\"FinishDesc\":\"感谢您参与本调查，您的意见对我们很重要。\"},\"Items\":[{\"PositionOrder\":[],\"Props\":{\"CustomAttr\":{\"DataOptions\":{\"Cols\":1,\"MaxValue\":0,\"MinValue\":0,\"MaxAnswerNumber\":0,\"MinAnswerNumber\":0,\"Star\":0,\"FileNumber\":0,\"FileType\":0,\"MinTextNumber\":0,\"HasPositiveTag\":false,\"HasNegativeTag\":false,\"HasAiComment\":false,\"HasAiPolish\":false,\"HasAiAsr\":false},\"IsSetScore\":true,\"IsAllowNull\":false,\"Remarks\":\"\"},\"Items\":{\"Issues\":[{\"Id\":1,\"Title\":\"<p>教学内容和学习安排具有挑战性、前沿性，激发我开展深度学习<br></p>\",\"SortNumber\":1},{\"Id\":2,\"Title\":\"<p>课程作业设计合理，"
+  },
+  {
+    "idx": 31,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.Questionnaire.GetQuestionnaire",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.Questionnaire.GetQuestionnaire"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ3Fx6fLqPxu6QaPnM93eNaLlBPpMP6Zii1A1EUIGM6VxeEy5mm/XB1UYoZ7gwjcuZ0tnTRfYrTjVaNVh+78ivUaq2I1TIgsHdkvYPJWz1ZvOwolamyPxPc28a5mzZ13I7wlgqOPQAX5Xb10kM2JcghLFrU/FXuGdEQjZnbbpiULvNjbFllla/sGEjRMbWaSX62sRnajjlrub8+xXoKGL4sNRuVCulNmohlgSDwLox3P0du301+WC4XcaU40fP/VuxVPQ0dAil8YGj6e+ezijwkVuv8GIBuC5H8vj2MnR64vfP7fpcpD8htpPrXLdSAZSrEQOZCTnMAIi23TmmNyxWulNus4rVhZHgEiElMOftbPw9suqRsd96I2LoBz40AfxA3EubejiWboxVt/PLNPKlQbiLZmZFOJLzBFD1NJRHudHMqv6ZnqRB7nxxdvkRpXl0BGnPdL+ejbCXzu5tf2cHy+Qz8i67r4zgZZsxI1MP+B9EhQlVUKX62Vvu4ebejiTUBA26/4w2bLz0OrQJKF9Q04GcDh7bbnQfF753CzV9Z1Eoq38N1sVEmJl1A8Is3IKAbAcgpUiAFcpO28UUwyDRW8R47n4adxlNG2RSGwVansRwW+Gw/IRqO5PVYyhmfXHOxKOkepOkmRWG45rLDwuVBL6YcX7jUPoHLAJ6mnKaRiW/vR+MRE3vF3o4aKK14NbW+9oIUG05dTPYWneg2vR0JOuNLOO+MB2K8Ab6DS+k8GF6CANOM6gynx3YOSeFYGUGQ75p9BmsyJsCROcKzk39EQTnNrCUOyJpTgT4GcenoNQ6M2TqiRYXYkLY/rB4AFMaIMPKiG8Qydqm5TIvgS1tBifRtNsHDx5LWkJkcwLXRvEwjo+gL0Cc2DSVigGJQDpf1ba+MNfpGQhKKaeP48SelCAddjRh5JzAsxTZV02d/BGfK4vHr48/GU0e7DQPWvHvyV8NIPKowHKfdzI14XBUxgqXpu8dnMN9EzDX1HV9FItsziULWTdUkYOrOeYvcZgX4SnCTrxDpTL8RxMLBGZV/Iux99xUehOGCSETsqTH00IlmhQN9yOXpKFUgoTECV6qhilahPhLAx5z9cHlLjvC+wK9t2r4NFxd2LyFjXB3NqbEp7hZK4ntGUe8shxrK0trZ1KBBWr47je4rtXMRY+Ezaw+A6WcCfnrVQjy72bZrI0tqtGjqrDVGhzE5nYlEgPfNiBJpB5s+2GEsJZj16cvMM3JgmKuBalOShclwcbrcaWSsDwv9QYb2D5tCg0U9Gwy6+Uxi3vI5WrroU1uKjB2U80zn6GOHT/fUdJdvA/Lzs8k+Xvum64Por/q76NyuOxNQ2thKpeNIwJuEOR+fFYqLQ="
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":{\"Props\":{\"Questionnaireid\":10,\"CustomAttr\":\"{\\\"MasterLimitNum\\\":0,\\\"AssistantLimitNum\\\":0}\",\"TopDesc\":\"亲爱的同学：\\n感谢您参加课程质量评价！\\n课程质量评价是学校教学质量保障工作的重要内容之一，您的评价结果和意见将会成为学校政策制定、资源分配、教师考评等多项工作的重要参考信息和决策依据。本问卷包含三个部分：一是对课程的学习体验与学习效果评价；二是对每位任课教师的教学评价；三是对课程与教师的意见和建议。请您以公正、客观的态度认真做答以下问题。\",\"FinishDesc\":\"感谢您参与本调查，您的意见对我们很重要。\"},\"Items\":[{\"PositionOrder\":[],\"Props\":{\"CustomAttr\":{\"DataOptions\":{\"Cols\":1,\"MaxValue\":0,\"MinValue\":0,\"MaxAnswerNumber\":0,\"MinAnswerNumber\":0,\"Star\":0,\"FileNumber\":0,\"FileType\":0,\"MinTextNumber\":0,\"HasPositiveTag\":false,\"HasNegativeTag\":false,\"HasAiComment\":false,\"HasAiPolish\":false,\"HasAiAsr\":false},\"IsSetScore\":true,\"IsAllowNull\":false,\"Remarks\":\"\"},\"Items\":{\"Issues\":[{\"Id\":1,\"Title\":\"<p>教学内容和学习安排具有挑战性、前沿性，激发我开展深度学习<br></p>\",\"SortNumber\":1},{\"Id\":2,\"Title\":\"<p>课程作业设计合理，"
+  },
+  {
+    "idx": 32,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.Questionnaire.GetQuestionnaire",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.Questionnaire.GetQuestionnaire"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ3Fx6fLqPxu6QaPnM93eNaLlBPpMP6Zii1A1EUIGM6VxeEy5mm/XB1UYoZ7gwjcuZ0tnTRfYrTjVaNVh+78ivUaq2I1TIgsHdkvYPJWz1ZvOwolamyPxPc28a5mzZ13I7wlgqOPQAX5Xb10kM2JcghLFrU/FXuGdEQjZnbbpiULvNjbFllla/sGEjRMbWaSX62sRnajjlrub8+xXoKGL4sNRuVCulNmohlgSDwLox3P0du301+WC4XcaU40fP/VuxVPQ0dAil8YGj6e+ezijwkVuv8GIBuC5H8vj2MnR64vfP7fpcpD8htpPrXLdSAZSrEQOZCTnMAIi23TmmNyxWulNus4rVhZHgEiElMOftbPw9suqRsd96I2LoBz40AfxA3EubejiWboxVt/PLNPKlQbiLZmZFOJLzBFD1NJRHudHMqv6ZnqRB7nxxdvkRpXl0BGnPdL+ejbCXzu5tf2cHy+Qz8i67r4zgZZsxI1MP+B9EhQlVUKX62Vvu4ebejiTUBA26/4w2bLz0OrQJKF9Q04GcDh7bbnQfF753CzV9Z1Eoq38N1sVEmJl1A8Is3IKAbAcgpUiAFcpO28UUwyDRW8R47n4adxlNG2RSGwVansRwW+Gw/IRqO5PVYyhmfXHOxKOkepOkmRWG45rLDwuVBL6YcX7jUPoHLAJ6mnKaRiW/vR+MRE3vF3o4aKK14NbW+9oIUG05dTPYWneg2vR0JOuNLOO+MB2K8Ab6DS+k8GF6CANOM6gynx3YOSeFYGUGQ75p9BmsyJsCROcKzk39EQTnNrCUOyJpTgT4GcenoNQ6M2TqiRYXYkLY/rB4AFMaIMPKiG8Qydqm5TIvgS1tBifRtNsHDx5LWkJkcwLXRvEwjo+gL0Cc2DSVigGJQDpf1ba+MNfpGQhKKaeP48SelCAddjRh5JzAsxTZV02d/BGfK4vHr48/GU0e7DQPWvHvyV8NIPKowHKfdzI14XBUxjipEf4Hv8j/X/GkHDfGzGHsziULWTdUkYOrOeYvcZgX4SnCTrxDpTL8RxMLBGZV/Iux99xUehOGCSETsqTH00IlmhQN9yOXpKFUgoTECV6qhilahPhLAx5z9cHlLjvC+wK9t2r4NFxd2LyFjXB3NqbEp7hZK4ntGUe8shxrK0trZ1KBBWr47je4rtXMRY+Ezaw+A6WcCfnrVQjy72bZrI0tqtGjqrDVGhzE5nYlEgPfNiBJpB5s+2GEsJZj16cvMM3JgmKuBalOShclwcbrcaWSsDwv9QYb2D5tCg0U9Gwy6+Uxi3vI5WrroU1uKjB2U80zn6GOHT/fUdJdvA/Lzs8k+Xvum64Por/q76NyuOxNQ2thKpeNIwJuEOR+fFYqLQ="
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":{\"Props\":{\"Questionnaireid\":10,\"CustomAttr\":\"{\\\"MasterLimitNum\\\":0,\\\"AssistantLimitNum\\\":0}\",\"TopDesc\":\"亲爱的同学：\\n感谢您参加课程质量评价！\\n课程质量评价是学校教学质量保障工作的重要内容之一，您的评价结果和意见将会成为学校政策制定、资源分配、教师考评等多项工作的重要参考信息和决策依据。本问卷包含三个部分：一是对课程的学习体验与学习效果评价；二是对每位任课教师的教学评价；三是对课程与教师的意见和建议。请您以公正、客观的态度认真做答以下问题。\",\"FinishDesc\":\"感谢您参与本调查，您的意见对我们很重要。\"},\"Items\":[{\"PositionOrder\":[],\"Props\":{\"CustomAttr\":{\"DataOptions\":{\"Cols\":1,\"MaxValue\":0,\"MinValue\":0,\"MaxAnswerNumber\":0,\"MinAnswerNumber\":0,\"Star\":0,\"FileNumber\":0,\"FileType\":0,\"MinTextNumber\":0,\"HasPositiveTag\":false,\"HasNegativeTag\":false,\"HasAiComment\":false,\"HasAiPolish\":false,\"HasAiAsr\":false},\"IsSetScore\":true,\"IsAllowNull\":false,\"Remarks\":\"\"},\"Items\":{\"Issues\":[{\"Id\":1,\"Title\":\"<p>教学内容和学习安排具有挑战性、前沿性，激发我开展深度学习<br></p>\",\"SortNumber\":1},{\"Id\":2,\"Title\":\"<p>课程作业设计合理，"
+  },
+  {
+    "idx": 33,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.Questionnaire.GetQuestionnaire",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.Questionnaire.GetQuestionnaire"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ3Fx6fLqPxu6QaPnM93eNaLlBPpMP6Zii1A1EUIGM6VxeEy5mm/XB1UYoZ7gwjcuZ0tnTRfYrTjVaNVh+78ivUaq2I1TIgsHdkvYPJWz1ZvOwolamyPxPc28a5mzZ13I7wlgqOPQAX5Xb10kM2JcghLFrU/FXuGdEQjZnbbpiULvNjbFllla/sGEjRMbWaSX62sRnajjlrub8+xXoKGL4sNRuVCulNmohlgSDwLox3P0du301+WC4XcaU40fP/VuxVPQ0dAil8YGj6e+ezijwkVuv8GIBuC5H8vj2MnR64vfP7fpcpD8htpPrXLdSAZSrEQOZCTnMAIi23TmmNyxWulNus4rVhZHgEiElMOftbPw9suqRsd96I2LoBz40AfxA3EubejiWboxVt/PLNPKlQbiLZmZFOJLzBFD1NJRHudHMqv6ZnqRB7nxxdvkRpXl0BGnPdL+ejbCXzu5tf2cHy+Qz8i67r4zgZZsxI1MP+B9EhQlVUKX62Vvu4ebejiTUBA26/4w2bLz0OrQJKF9Q04GcDh7bbnQfF753CzV9Z1Eoq38N1sVEmJl1A8Is3IKAbAcgpUiAFcpO28UUwyDRW8R47n4adxlNG2RSGwVansRwW+Gw/IRqO5PVYyhmfXHOxKOkepOkmRWG45rLDwuVBL6YcX7jUPoHLAJ6mnKaRiW/vR+MRE3vF3o4aKK14NbW+9oIUG05dTPYWneg2vR0JOuNLOO+MB2K8Ab6DS+k8GF6CANOM6gynx3YOSeFYGUGQ75p9BmsyJsCROcKzk39EQTnNrCUOyJpTgT4GcenoNQ6M2TqiRYXYkLY/rB4AFMaIMPKiG8Qydqm5TIvgS1tBifRtNsHDx5LWkJkcwLXRvEwjo+gL0Cc2DSVigGJQDpf1ba+MNfpGQhKKaeP48SelCAddjRh5JzAsxTZV02d/BGfK4vHr48/GU0e7DQPWvHvyV8NIPKowHKfdzI14XBUxgRLRMEYQ3XIB14b5RmoobrsziULWTdUkYOrOeYvcZgX4SnCTrxDpTL8RxMLBGZV/Iux99xUehOGCSETsqTH00IlmhQN9yOXpKFUgoTECV6qhilahPhLAx5z9cHlLjvC+wK9t2r4NFxd2LyFjXB3NqbEp7hZK4ntGUe8shxrK0trZ1KBBWr47je4rtXMRY+Ezaw+A6WcCfnrVQjy72bZrI0tqtGjqrDVGhzE5nYlEgPfNiBJpB5s+2GEsJZj16cvMM3JgmKuBalOShclwcbrcaWSsDwv9QYb2D5tCg0U9Gwy6+Uxi3vI5WrroU1uKjB2U80zn6GOHT/fUdJdvA/Lzs8k+Xvum64Por/q76NyuOxNQ2thKpeNIwJuEOR+fFYqLQ="
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":{\"Props\":{\"Questionnaireid\":10,\"CustomAttr\":\"{\\\"MasterLimitNum\\\":0,\\\"AssistantLimitNum\\\":0}\",\"TopDesc\":\"亲爱的同学：\\n感谢您参加课程质量评价！\\n课程质量评价是学校教学质量保障工作的重要内容之一，您的评价结果和意见将会成为学校政策制定、资源分配、教师考评等多项工作的重要参考信息和决策依据。本问卷包含三个部分：一是对课程的学习体验与学习效果评价；二是对每位任课教师的教学评价；三是对课程与教师的意见和建议。请您以公正、客观的态度认真做答以下问题。\",\"FinishDesc\":\"感谢您参与本调查，您的意见对我们很重要。\"},\"Items\":[{\"PositionOrder\":[],\"Props\":{\"CustomAttr\":{\"DataOptions\":{\"Cols\":1,\"MaxValue\":0,\"MinValue\":0,\"MaxAnswerNumber\":0,\"MinAnswerNumber\":0,\"Star\":0,\"FileNumber\":0,\"FileType\":0,\"MinTextNumber\":0,\"HasPositiveTag\":false,\"HasNegativeTag\":false,\"HasAiComment\":false,\"HasAiPolish\":false,\"HasAiAsr\":false},\"IsSetScore\":true,\"IsAllowNull\":false,\"Remarks\":\"\"},\"Items\":{\"Issues\":[{\"Id\":1,\"Title\":\"<p>教学内容和学习安排具有挑战性、前沿性，激发我开展深度学习<br></p>\",\"SortNumber\":1},{\"Id\":2,\"Title\":\"<p>课程作业设计合理，"
+  },
+  {
+    "idx": 34,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.Login.GetPublicKey",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.Login.GetPublicKey"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ3Fx6fLqPxu6QaPnM93eNaLlBPpMP6Zii1A1EUIGM6VxeEy5mm/XB1UYoZ7gwjcuZ0tnTRfYrTjVaNVh+78ivUaq2I1TIgsHdkvYPJWz1ZvOwolamyPxPc28a5mzZ13I7wlgqOPQAX5Xb10kM2JcghLFrU/FXuGdEQjZnbbpiULvNjbFllla/sGEjRMbWaSX62sRnajjlrub8+xXoKGL4sNRuVCulNmohlgSDwLox3P0du301+WC4XcaU40fP/VuxVPQ0dAil8YGj6e+ezijwkVuv8GIBuC5H8vj2MnR64vfP7fpcpD8htpPrXLdSAZSrEQOZCTnMAIi23TmmNyxWulNus4rVhZHgEiElMOftbPw9suqRsd96I2LoBz40AfxA3EubejiWboxVt/PLNPKlQbiLZmZFOJLzBFD1NJRHudHMqv6ZnqRB7nxxdvkRpXl0BGnPdL+ejbCXzu5tf2cHy+Qz8i67r4zgZZsxI1MP+B9EhQlVUKX62Vvu4ebejiTUBA26/4w2bLz0OrQJKF9Q04GcDh7bbnQfF753CzV9Z1Eoq38N1sVEmJl1A8Is3IKAbAcgpUiAFcpO28UUwyDRW8R47n4adxlNG2RSGwVansRwW+Gw/IRqO5PVYyhmfXHOxKOkepOkmRWG45rLDwuVBL6YcX7jUPoHLAJ6mnKaRiW/vR+MRE3vF3o4aKK14NbW+9oIUG05dTPYWneg2vR0JOuNLOO+MB2K8Ab6DS+k8GF6CANOM6gynx3YOSeFYGUGQ75p9BmsyJsCROcKzk39EQTnNrCUOyJpTgT4GcenoNQ6M2TqiRYXYkLY/rB4AFMaIMPKiG8Qydqm5TIvgS1tBifRtNsHDx5LWkJkcwLXRvEwjo+gL0Cc2DSVigGJQDpf53SC7sspPArptKwjw8is2xDh4HbiInxzgVUNNjei+FmsNKShUN0kwQTnjo0G2Eg3HX5UkfOVxap/zNM4UHXd1Y2itMFIYmVsgR5Jl9Wmsr2SNzRNBfEQr5LF0IAvkMcw+aZR5HenW4XHDirBScrH+fe/5tkHZwvtCnKmd5lMz9yBinSOUxNYwhHcVP1JEjT2PzE/4/67b/c3zXB27PROJFOL+zfuKYhHvaccQ8NvfHlqp2hN0LM5CDEqce91K3UYBvSkbo0qPQjOMY4KqIUrUtWhvhktkIoDIfHgoO5PgOsyIXJcXGU2WLeYEqjSNfzBIX3urkVJVSQyllMIxbT6YfGiBm60NPC8pYo6joII79Pnmwt0tpRMdYjYNLRxpzfj87VeS4PnBSYp6Hnq9+KcgU="
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":{\"CacheKey\":\"\",\"PublicKey\":\"010001\",\"PublicValue\":\"9CB0480990A773BFE83C430E3DA5E47B135AB564EC2D2535032E04BCD2050510DBCAE6FB701BB960F8BCD21920A04EB650109E6ADADE3F2E4F5229A9C53D67A76F2BB9C6EAA238E9B77918DB8E6D50855C5F4B6F9828086F39A0D0D68615DC577C97F12EFBF598013F190410E1B49048D7C885E5BE55087EB8EB83A64E332467\",\"PrivateKey\":\"\"},\"Token\":\"RaIMd7mGRO8vbueJ1z0RIN9elj49Gbznjzxlr7AGrzEGhY7ZaoR2ZVqhwJgYTer3L3snsn15eKbJc18abubqe6fXVxD0UJYQplfe6Pj15xBeq5NzVCvpWfxHalc85ahWXTEuxfWqJyuCCg+e3pZV4zx0m5lTKRNKiDdpxyIjfCrqeMge9d3aCANvTxmDe1RM63Bvxk60kmMYEyUJwnoPtShUiuq14OD09/qyrPsDoHjYPjwn1d1DEIqUGzUMCFuV/e8VtRZ7YtoznZU8MhliRXp3jFh7m78/maBpYcs7X2pGUgnn6UocMQ4mBsAJRzxlVks4EEiwxfR2G3hJK/5TRLOvYHvXhmE1sRbyFCUqxXD8K/I9YuWKY4uT68TO19azXhFcVNiI88W3WAe6uyuRNRYKPZ1rzez2onxrVuqWu2gvj7SP0Wh+ni6R4kfjEmA+eo88GHeR"
+  },
+  {
+    "idx": 35,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.Questionnaire.SaveAnswer",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.Questionnaire.SaveAnswer"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "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"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":true,\"Token\":\"RaIMd7mGRO8vbueJ1z0RIN9elj49Gbznjzxlr7AGrzEGhY7ZaoR2ZVqhwJgYTer3L3snsn15eKbJc18abubqe6fXVxD0UJYQplfe6Pj15xBeq5NzVCvpWfxHalc85ahWXTEuxfWqJyuCCg+e3pZV4zx0m5lTKRNKiDdpxyIjfCrqeMge9d3aCANvTxmDe1RM63Bvxk60kmMYEyUJwnoPtShUiuq14OD09/qyrPsDoHjYPjwn1d1DEIqUGzUMCFuV/e8VtRZ7YtoznZU8MhliRXp3jFh7m78/maBpYcs7X2pGUgnn6UocMQ4mBsAJRzxlVks4EEiwxfR2G3hJK/5TRLOvYHvXhmE1sRbyFCUqxXD8K/I9YuWKY4uT68TO19azXhFcVNiI88W3WAe6uyuRNRYKPZ1rzez2onxrVuqWu2gvj7SP0Wh+ni6R4kfjEmA+eo88GHeR22tKvtZlRlW3nqqeg7CSYnQVtThAZM1qO5jkGNoTdNZ44aHVCkkWRxb9ljv7NFLkhSNmw9VfSZRoccqVjNNR9/jsA4J6h1g4vrw=\",\"RequestId\":\"f878d888-9cd9-49d3-b695-5aeb37108664\"}"
+  },
+  {
+    "idx": 36,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.Questionnaire.SaveAnswer",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.Questionnaire.SaveAnswer"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "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"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":true,\"Token\":\"RaIMd7mGRO8vbueJ1z0RIN9elj49Gbznjzxlr7AGrzEGhY7ZaoR2ZVqhwJgYTer3L3snsn15eKbJc18abubqe6fXVxD0UJYQplfe6Pj15xBeq5NzVCvpWfxHalc85ahWXTEuxfWqJyuCCg+e3pZV4zx0m5lTKRNKiDdpxyIjfCrqeMge9d3aCANvTxmDe1RM63Bvxk60kmMYEyUJwnoPtShUiuq14OD09/qyrPsDoHjYPjwn1d1DEIqUGzUMCFuV/e8VtRZ7YtoznZU8MhliRXp3jFh7m78/maBpYcs7X2pGUgnn6UocMQ4mBsAJRzxlVks4EEiwxfR2G3hJK/5TRLOvYHvXhmE1sRbyFCUqxXD8K/I9YuWKY4uT68TO19azXhFcVNiI88W3WAe6uyuRNRYKPZ1rzez2onxrVuqWu2gvj7SP0Wh+ni6R4kfjEmA+eo88GHeR22tKvtZlRlW3nqqeg7CSYnQVtThAZM1qO5jkGNoTdNZ44aHVCkkWRxb9ljv7NFLkhSNmw9VfSZRoccqVjNNR9/jsA4J6h1g4vrw=\",\"RequestId\":\"c1444fc9-69ed-4d05-bcb8-fc98f68a0e50\"}"
+  },
+  {
+    "idx": 37,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.Questionnaire.SaveAnswer",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.Questionnaire.SaveAnswer"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "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"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":true,\"Token\":\"RaIMd7mGRO8vbueJ1z0RIN9elj49Gbznjzxlr7AGrzEGhY7ZaoR2ZVqhwJgYTer3L3snsn15eKbJc18abubqe6fXVxD0UJYQplfe6Pj15xBeq5NzVCvpWfxHalc85ahWXTEuxfWqJyuCCg+e3pZV4zx0m5lTKRNKiDdpxyIjfCrqeMge9d3aCANvTxmDe1RM63Bvxk60kmMYEyUJwnoPtShUiuq14OD09/qyrPsDoHjYPjwn1d1DEIqUGzUMCFuV/e8VtRZ7YtoznZU8MhliRXp3jFh7m78/maBpYcs7X2pGUgnn6UocMQ4mBsAJRzxlVks4EEiwxfR2G3hJK/5TRLOvYHvXhmE1sRbyFCUqxXD8K/I9YuWKY4uT68TO19azXhFcVNiI88W3WAe6uyuRNRYKPZ1rzez2onxrVuqWu2gvj7SP0Wh+ni6R4kfjEmA+eo88GHeR22tKvtZlRlW3nqqeg7CSYnQVtThAZM1qO5jkGNoTdNZ44aHVCkkWRxb9ljv7NFLkhSNmw9VfSZRoccqVjNNR9/jsA4J6h1g4vrw=\",\"RequestId\":\"9d537259-966b-4687-8f0f-5f0a39294add\"}"
+  },
+  {
+    "idx": 38,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.Questionnaire.GetFinalQuestionnaireHeader",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.Questionnaire.GetFinalQuestionnaireHeader"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ3Fx6fLqPxu6QaPnM93eNaLlBPpMP6Zii1A1EUIGM6VxeEy5mm/XB1UYoZ7gwjcuZ0tnTRfYrTjVaNVh+78ivUaq2I1TIgsHdkvYPJWz1ZvOwolamyPxPc28a5mzZ13I7wlgqOPQAX5Xb10kM2JcghLFrU/FXuGdEQjZnbbpiULvNjbFllla/sGEjRMbWaSX62sRnajjlrub8+xXoKGL4sNRuVCulNmohlgSDwLox3P0du301+WC4XcaU40fP/VuxVPQ0dAil8YGj6e+ezijwkVuv8GIBuC5H8vj2MnR64vfP7fpcpD8htpPrXLdSAZSrEQOZCTnMAIi23TmmNyxWulNus4rVhZHgEiElMOftbPw9suqRsd96I2LoBz40AfxA3EubejiWboxVt/PLNPKlQbiLZmZFOJLzBFD1NJRHudHMqv6ZnqRB7nxxdvkRpXl0BGnPdL+ejbCXzu5tf2cHy+Qz8i67r4zgZZsxI1MP+B9EhQlVUKX62Vvu4ebejiTUBA26/4w2bLz0OrQJKF9Q04GcDh7bbnQfF753CzV9Z1Eoq38N1sVEmJl1A8Is3IKAbAcgpUiAFcpO28UUwyDRW8R47n4adxlNG2RSGwVansRwW+Gw/IRqO5PVYyhmfXHOxKOkepOkmRWG45rLDwuVBL6YcX7jUPoHLAJ6mnKaRiW/vR+MRE3vF3o4aKK14NbW+9oIUG05dTPYWneg2vR0JOuNLOO+MB2K8Ab6DS+k8GF6CANOM6gynx3YOSeFYGUGQ75p9BmsyJsCROcKzk39EQTnNrCUOyJpTgT4GcenoNQ6M2TqiRYXYkLY/rB4AFMaIMPKiG8Qydqm5TIvgS1tBifRtNsHDx5LWkJkcwLXRvEwjo+gL0Cc2DSVigGJQDpf1ba+MNfpGQhKKaeP48SelC4rrfGEZUsWQuWQBhro9oV5L8pewvgXxPfH+V5de6bSsTQYGc8/qv4xOKXa7Svi1w0pKzHQi11Hj1P4eIq4KVxLGNR+PK/bYtasH2vEqgPBO30eN33qMqyCWFVfTBgonzZ/fGHg3j1+D6XiTMFUEoNpbaKwdJfd4TNHZjTpe8DnR1yrgZ72jBBO69y3OLZMstG8WiK8sRYdDsodoYvY9WXmN0LxzLPZMxvBYaZq8OQj/xn6txWqCL9Ft8yIZ3btcC84N/xtnnJu0bVKa0y9lvhSlfgeX8Zb/G9eUFNfzEpwQ5/ipILUMWCT72SGWoM2qLjK8kqMF4kaqo82ow6W8hAldtWKDIaels4KLkBp//JJQnT4D+XszhR8YBzcz5pyPXCGigNNBlmER6nxcUKvWk053COa9F0sW/OjTgPyIsfUHNM3SwannSYNd/H+YmAshJf1ksDd//+s9+6nuX5TPf8aA/D7pfXI4iXdliuHqJYRLCxCJnnDnhSh74nxeLRCb/4JQIEn9E7r+0YdBK0GSQWVfDKOKIs3S8MsapoeXO9r286m/1/UwmwbaYtBhN4iW8="
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":{\"CourseList\":[{\"CourseList\":{\"Name\":\"课程\",\"Id\":10,\"TypeCode\":\"Final\"},\"TeacherList\":[{\"ClassCode\":\"e5220a4e9b36437698cf049e1605fc6a\",\"TeacherCode\":\"06528\",\"TeacherName\":\"杨光\",\"AvatarUrl\":\"\",\"DetailId\":6686,\"AnswerStatus\":2,\"StartTime\":\"2026-01-01 00:00:00\",\"EndTime\":\"2026-03-31 23:59:59\",\"Id\":10,\"TypeCode\":\"Final\"},{\"ClassCode\":\"e5220a4e9b36437698cf049e1605fc6a\",\"TeacherCode\":\"08806\",\"TeacherName\":\"王慧\",\"AvatarUrl\":\"\",\"DetailId\":7001,\"AnswerStatus\":2,\"StartTime\":\"2026-01-01 00:00:00\",\"EndTime\":\"2026-03-31 23:59:59\",\"Id\":10,\"TypeCode\":\"Final\"},{\"ClassCode\":\"e5220a4e9b36437698cf049e1605fc6a\",\"TeacherCode\":\"10015\",\"TeacherName\":\"李彬\",\"AvatarUrl\":\"\",\"DetailId\":7316,\"AnswerStatus\":2,\"StartTime\":\"2026-01-01 00:00:00\",\"EndTime\":\"2026-03-31 23:59:59\",\"Id\":10,\"TypeCode\":\"Final\"}],\"TeachingAss"
+  },
+  {
+    "idx": 39,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.MyTask.MyTask.GetMyUnfinishTaskNumber",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.MyTask.MyTask.GetMyUnfinishTaskNumber"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ7MfdCoadJI2ALnsBodfOiB3PRf3RK/9XJ084ncQkC5ZtTusTQG/+T0rW2eVkm2RwVkyFhipsHG139xJ6sEyemyYXdhb/vmv6UOOrmYNgOTXiP8zEigghhzlLAzI6jR7PG4EpISFDN4KAU+2hd4csyrw+ewnxwj+spmhcT8OT0544tPIEUyC/mL0bPmz0jiG64fPCvYgLwd82Xtnl1m50yK2PZze28jHRafq2HzpkMfvtgOwbLrI1GdxGy6T0IdBN1mXda3jC2I8A3ZkXueaAjOrU30uvAYoXGyfmrjUTe7ZF90W70ff+I64MUym2rj3OXsH0dE/doC/vHwFTJhEkOv8NN5+JbIBcF2bWeiI2cOWfdvlwwJt1vSNQFJfJ44/Clfa+67XHaqCh39zIPs7+oynfgh0TAEOd7G+LJV4CuSOaG8J+ea2tpDB1YMA5u3CyUbof4x1bNYXIN40dYqc/VFjQ1rxqiAJoXBhmtjdNVf0o8izP8gKkRLrSE+fkoY+XbG+At/4Cyq4ZM5yQsQp8tBwQc/UGyBlCHcRuqwl8cW9Y2XSgDBc2OtS39j9XxYj7hJ2xHk/g3fhHkAIk9QVSngMCpA6af77XK/QFGJ9d2DAUQCylTJKd/pLluqcXePUMqtkQDIcm1OP5zLA+vLZdNE2wXrddAtMBR7R6Y0qmBHsEg44ppv7ZMpw1HysscpNICxDMyGNzKJAccgRVE60Gko0XIxWZe2ABorfkiL7JfHjsQS8GSiaOa/VdyvXKW7leSrOMIStADDmmD/0mLwEf/wYYs1hIuGOXRGWR87sD4vkE3kZX5/ZiS1gsbcJxCBnJFB9ngoqj0HRcQvic1ddOnVNBx4wGzWk9PWliQHxJG7GuRpyMofmz6aXPNpp8E5brlypRK9bYgko7C11RaU/+pTTONZqooYbRXJwHF0OBNZD2at4AOw96+bOslLyIqnqEr9+L3I6lCzRfuzOBzW3uHJvuZ4YXl3S/+BMQ3kluTK8MO77/heaZQzE2GpSJhYj/1iU9jQj3i5683JCvgJcghvlIbAkJ+WFVtYIG2Y/02Gn4eINPv78Vnsu32ysafS6GaUOP4Aj7JNjVWbRwJJEfYiJsV5nkVq8mK5JKdllEBJBELLx0yBqwa+ZARzSgARS6t8tf6Wvgt2DAVyey1kes7KRR57adlXMlsGycZwAbX3A9aGJZHWwNgUFVz0mh+0MRSYFqAiuZ5kNbEa68+pKkfeDYSObV9Qt7j//l4KFxNuEfarxyiEPgBObqcNeQTo+2w=="
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":1,\"Token\":\"RaIMd7mGRO8vbueJ1z0RIN9elj49Gbznjzxlr7AGrzEGhY7ZaoR2ZVqhwJgYTer3L3snsn15eKbJc18abubqe6fXVxD0UJYQplfe6Pj15xBeq5NzVCvpWfxHalc85ahWXTEuxfWqJyuCCg+e3pZV4zx0m5lTKRNKiDdpxyIjfCrqeMge9d3aCANvTxmDe1RM63Bvxk60kmMYEyUJwnoPtShUiuq14OD09/qyrPsDoHjYPjwn1d1DEIqUGzUMCFuV/e8VtRZ7YtoznZU8MhliRXp3jFh7m78/maBpYcs7X2pGUgnn6UocMQ4mBsAJRzxlVks4EEiwxfR2G3hJK/5TRLOvYHvXhmE1sRbyFCUqxXD8K/I9YuWKY4uT68TO19azXhFcVNiI88W3WAe6uyuRNRYKPZ1rzez2onxrVuqWu2gvj7SP0Wh+ni6R4kfjEmA+eo88GHeR22tKvtZlRlW3nqqeg7CSYnQVtThAZM1qO5jkGNoTdNZ44aHVCkkWRxb9ljv7NFLkhSNmw9VfSZRoccqVjNNR9/jsA4J6h1g4vrw=\",\"RequestId\":\"a6eb80b6-e596-4761-8529-9cb6a7053366\"}"
+  },
+  {
+    "idx": 40,
+    "url": "https://yjskcpj.buaa.edu.cn/service/apis.do?ApiName=Mycos.JP.Questionnaire.GetQuestionnaireAnswer",
+    "method": "POST",
+    "status": 200,
+    "statusText": "",
+    "requestHeaders": {
+      "content-type": "application/json; charset=utf-8",
+      "origin": "https://yjskcpj.buaa.edu.cn",
+      "referer": "https://yjskcpj.buaa.edu.cn/index.html?v=3.33.1"
+    },
+    "queryString": [
+      {
+        "name": "ApiName",
+        "value": "Mycos.JP.Questionnaire.GetQuestionnaireAnswer"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json; charset=utf-8",
+      "text": "qBldSt1dI1uF1B8L4OkpZ3Fx6fLqPxu6QaPnM93eNaLlBPpMP6Zii1A1EUIGM6VxeEy5mm/XB1UYoZ7gwjcuZ0tnTRfYrTjVaNVh+78ivUaq2I1TIgsHdkvYPJWz1ZvOwolamyPxPc28a5mzZ13I7wlgqOPQAX5Xb10kM2JcghLFrU/FXuGdEQjZnbbpiULvNjbFllla/sGEjRMbWaSX62sRnajjlrub8+xXoKGL4sNRuVCulNmohlgSDwLox3P0du301+WC4XcaU40fP/VuxVPQ0dAil8YGj6e+ezijwkVuv8GIBuC5H8vj2MnR64vfP7fpcpD8htpPrXLdSAZSrEQOZCTnMAIi23TmmNyxWulNus4rVhZHgEiElMOftbPw9suqRsd96I2LoBz40AfxA3EubejiWboxVt/PLNPKlQbiLZmZFOJLzBFD1NJRHudHMqv6ZnqRB7nxxdvkRpXl0BGnPdL+ejbCXzu5tf2cHy+Qz8i67r4zgZZsxI1MP+B9EhQlVUKX62Vvu4ebejiTUBA26/4w2bLz0OrQJKF9Q04GcDh7bbnQfF753CzV9Z1Eoq38N1sVEmJl1A8Is3IKAbAcgpUiAFcpO28UUwyDRW8R47n4adxlNG2RSGwVansRwW+Gw/IRqO5PVYyhmfXHOxKOkepOkmRWG45rLDwuVBL6YcX7jUPoHLAJ6mnKaRiW/vR+MRE3vF3o4aKK14NbW+9oIUG05dTPYWneg2vR0JOuNLOO+MB2K8Ab6DS+k8GF6CANOM6gynx3YOSeFYGUGQ75p9BmsyJsCROcKzk39EQTnNrCUOyJpTgT4GcenoNQ6M2TqiRYXYkLY/rB4AFMaIMPKiG8Qydqm5TIvgS1tBifRtNsHDx5LWkJkcwLXRvEwjo+gL0Cc2DSVigGJQDpf1ba+MNfpGQhKKaeP48SelCAddjRh5JzAsxTZV02d/BGI4sk+P9HUA7434IUYCuPGbL0bUBKFxEm+5g3EwNJMbfmUCSWTd1Rx8xpVoMyVLE+zEgmbJ1mdNvKv9mHqqXjicZPQnqnU9SxIndCz9lgPHH1hROdLD+8Fjzo+dB92ufOPWxgARZ7DQ0a1hqx/02HdF+dyqZa5nfKC1I6dM+pwTPlZdqITS/d5k9FE65UbbCt4jC+6rxwS9+tf3raimfPyLne7w9ppxJyNMe1Zdy+DJd5W0rOVog2iC0V308KQsxgf5pvxNRcwSOvTlAGukoYYQ+B03JZi9oYJFAL4EWeR2ej7NhxPstL3IvDpz7ykYHetwlWqZBncWtxZ5h4bo7qUvL//91vd2EJ+6qlqk4Or0k46TNgBeZzUPTJjE34q9AxASGbBwHCoXBcGkRrZ3H4CWVqZve+YYzUaCZdb6osyxAiQiJ2aO7D8ZiCTx2UM7/6d3zbqnNC3McBbHPAt8yecSVcSduVKc6ylazI2yR4ze0J0fztEGD/kzZyQgAFo0dnSq7CLyy+Vtep1WtqFBiqVbbeypo6L0R6AjyP6OCTPpjO1XkuD5wUmKeh56vfinIF"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "responseSnippet": "{\"Value\":{\"PositionOrder\":[29,30,31],\"Items\":[{\"ItemAnswers\":[{\"OptionId\":1,\"IssueId\":1,\"ItemScore\":10.0},{\"OptionId\":1,\"IssueId\":2,\"ItemScore\":10.0},{\"OptionId\":1,\"IssueId\":3,\"ItemScore\":10.0},{\"OptionId\":1,\"IssueId\":4,\"ItemScore\":10.0},{\"OptionId\":1,\"IssueId\":5,\"ItemScore\":10.0}],\"PositionOrder\":[],\"Props\":{\"CustomAttr\":{\"DataOptions\":{\"Cols\":1,\"MaxValue\":0,\"MinValue\":0,\"MaxAnswerNumber\":0,\"MinAnswerNumber\":0,\"Star\":0,\"FileNumber\":0,\"FileType\":0,\"MinTextNumber\":0,\"HasPositiveTag\":false,\"HasNegativeTag\":false,\"HasAiComment\":false,\"HasAiPolish\":false,\"HasAiAsr\":false},\"IsSetScore\":true,\"IsAllowNull\":false,\"Remarks\":\"\"},\"Items\":{\"Issues\":[{\"Id\":1,\"Title\":\"<p>教学内容和学习安排具有挑战性、前沿性，激发我开展深度学习<br></p>\",\"SortNumber\":1},{\"Id\":2,\"Title\":\"<p>课程作业设计合理，课程考核注重过程性的综合评价（如有大作业、项目研究等）<br></p>\",\"SortNumber\":2"
+  }
+]
